@@ -18,7 +18,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 WIDTH, HEIGHT = 1320, 2868
-EXTRA_SIZES = {'6.5': (1284, 2778)}  # "iPhone 6.5\" Display" slot
+EXTRA_SIZES = {'6.5': (1284, 2778), '6.3': (1206, 2622)}  # older 6.5" slot; 6.3" "Dynamic Island (medium display)" slot
 MARGIN = 96
 FONT_FILE = '/System/Library/Fonts/SFNS.ttf'
 ICON = Path('AppStore/AppIcon-1024.png')

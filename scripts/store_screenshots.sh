@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Regenerates the App Store screenshots into AppStore/screenshots/en (1320×2868, 6.9") and
-# AppStore/screenshots/en-6.5 (1284×2778, the iPhone 6.5-inch Display slot).
+# AppStore/screenshots/en-6.5 (1284×2778) and en-6.3 (1206×2622, the "medium display" slot).
 #   1. StoreScreenshotTests captures raw screens with generated demo data (no real channels)
 #   2. make_store_screenshots.py adds the headline, device frame and background
 #

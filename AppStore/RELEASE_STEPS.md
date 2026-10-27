@@ -74,7 +74,7 @@ Ferritin, hemoglobin & meals
 
 ## 6. Trang phiên bản 1.0
 
-**Ảnh:** tải 5 ảnh `01` → `05` từ `AppStore/screenshots/en/` (ô 6.9") **hoặc** `AppStore/screenshots/en-6.5/` (ô 6.5"). Một bộ là đủ.
+**Ảnh:** ô **iPhone with Dynamic Island (medium display)** → tải 5 ảnh `01` → `05` từ `AppStore/screenshots/en-6.3/` (1206×2622). Các ô iPhone Duo, iPad, Apple Watch bỏ trống (app chỉ chạy iPhone). Nếu ô nào đòi 1320×2868 thì dùng `en/`, đòi 1284×2778 thì dùng `en-6.5/`.
 
 **Promotional Text** (170)
 ```text
