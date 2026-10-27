@@ -1,0 +1,205 @@
+#!/usr/bin/env python3
+"""Builds Irovi/Resources/Localizable.xcstrings (English source + Vietnamese).
+
+Usage (from the repo root, after a build so the .stringsdata files exist):
+    python3 scripts/vi_strings.py
+
+It reads every key the compiler extracted from the Swift code, fills in the
+Vietnamese text from VI below, and fails if a key has no translation — so a
+new string can't ship untranslated. Article bodies live in Article.swift.
+"""
+import glob
+import json
+import sys
+
+VI = {
+    "%lld": "%lld",
+    "%lld of %lld food groups": "%lld / %lld nhóm thực phẩm",
+    "A simple daily companion for people who want more iron in their diet.": "Người bạn đồng hành mỗi ngày cho ai muốn bổ sung thêm sắt qua bữa ăn.",
+    "About": "Giới thiệu",
+    "Add a medicine": "Thêm thuốc",
+    "Add a medicine to get a reminder and tick it off each day.": "Thêm thuốc để được nhắc và đánh dấu đã uống mỗi ngày.",
+    "Add a result": "Thêm kết quả",
+    "Add a time": "Thêm giờ",
+    "Add only medicines a doctor or pharmacist told you to take. Irovi reminds you at the times you choose; it doesn't suggest medicines or doses.":
+        "Chỉ thêm thuốc bác sĩ hoặc dược sĩ đã dặn bạn dùng. Irovi nhắc bạn vào giờ bạn chọn; app không gợi ý thuốc hay liều dùng.",
+    "Add the hemoglobin and ferritin numbers from your lab report to see how they change over time.":
+        "Nhập chỉ số hemoglobin và ferritin trong phiếu xét nghiệm để xem chúng thay đổi theo thời gian.",
+    "All results": "Tất cả kết quả",
+    "Always talk to a doctor or pharmacist about your blood test results, symptoms and any treatment.":
+        "Hãy luôn trao đổi với bác sĩ hoặc dược sĩ về kết quả xét nghiệm, triệu chứng và mọi việc điều trị.",
+    "Beans & tofu": "Đậu & đậu phụ",
+    "Beef, pork, lamb, liver": "Thịt bò, thịt lợn, thịt cừu, gan",
+    "Between meals rather than with them": "Uống giữa các bữa thay vì trong bữa ăn",
+    "Blood": "Máu",
+    "Cancel": "Huỷ",
+    "Check this number": "Kiểm tra lại số này",
+    "Chicken, duck, turkey, eggs": "Gà, vịt, gà tây, trứng",
+    "Clams, oysters, mussels, sardines": "Ngao, hàu, trai, cá mòi",
+    "Continue": "Tiếp tục",
+    "Copy the numbers from your lab report. Leave a field empty if it wasn't tested.":
+        "Chép các con số trong phiếu xét nghiệm. Để trống ô nào không được xét nghiệm.",
+    "Daily food reminder": "Nhắc ăn mỗi ngày",
+    "Daily goal": "Mục tiêu mỗi ngày",
+    "Dark leafy greens": "Rau lá xanh đậm",
+    "Date": "Ngày",
+    "Delete": "Xoá",
+    "Delete all data": "Xoá toàn bộ dữ liệu",
+    "Delete all data?": "Xoá toàn bộ dữ liệu?",
+    "Delete everything": "Xoá hết",
+    "Delete medicine": "Xoá thuốc",
+    "Delete result": "Xoá kết quả",
+    "Delete this result?": "Xoá kết quả này?",
+    "Doctor's target": "Mục tiêu của bác sĩ",
+    "Done": "Xong",
+    "Eat for iron. Keep an eye on your blood.": "Ăn đủ sắt. Để ý chỉ số máu.",
+    "Edit medicine": "Sửa thuốc",
+    "Edit result": "Sửa kết quả",
+    "Everything stays on this iPhone. There is no account and nothing is uploaded.":
+        "Mọi dữ liệu nằm trên iPhone này. Không có tài khoản và không tải lên đâu cả.",
+    "Everything you enter in Irovi (your checklist, blood test results and medicines) is stored only on this iPhone.":
+        "Mọi thứ bạn nhập trong Irovi (checklist, kết quả xét nghiệm và thuốc) chỉ được lưu trên iPhone này.",
+    "Export my data (CSV)": "Xuất dữ liệu (CSV)",
+    "Ferritin": "Ferritin",
+    "Food groups per day": "Số nhóm thực phẩm mỗi ngày",
+    "Fortified cereal, oats, pumpkin seeds": "Ngũ cốc bổ sung sắt, yến mạch, hạt bí",
+    "Fortified grains & seeds": "Ngũ cốc bổ sung sắt & hạt",
+    "General information only, not medical advice.": "Chỉ là thông tin chung, không phải lời khuyên y tế.",
+    "Gentle reminders for meals, your own medicines and your next test": "Nhắc nhẹ nhàng về bữa ăn, thuốc của bạn và lần xét nghiệm tới",
+    "Goal reached today": "Đã đạt mục tiêu hôm nay",
+    "Has your plate had something iron-rich today?": "Hôm nay bữa ăn của bạn đã có món giàu sắt chưa?",
+    "Health information": "Thông tin sức khỏe",
+    "Help your body absorb it": "Giúp cơ thể hấp thu sắt",
+    "Hemoglobin": "Hemoglobin",
+    "How many iron-rich food groups would you like on your plate each day?": "Mỗi ngày bạn muốn ăn bao nhiêu nhóm thực phẩm giàu sắt?",
+    "In %lld days": "Còn %lld ngày",
+    "Iron-rich food reminder": "Nhắc ăn món giàu sắt",
+    "Iron-rich foods today": "Thực phẩm giàu sắt hôm nay",
+    "Irovi data": "Dữ liệu Irovi",
+    "Irovi does not recommend medicines, supplements or doses. Medicines you add are only used for your own reminders.":
+        "Irovi không gợi ý thuốc, thực phẩm bổ sung hay liều dùng. Thuốc bạn thêm vào chỉ dùng để nhắc chính bạn.",
+    "Irovi doesn't interpret results. Ask your doctor what your numbers mean for you.":
+        "Irovi không đánh giá kết quả. Hãy hỏi bác sĩ các con số có ý nghĩa gì với bạn.",
+    "Irovi follows your iPhone's language. You can pick a different one for Irovi in the Settings app.":
+        "Irovi dùng ngôn ngữ của iPhone. Bạn có thể chọn ngôn ngữ khác cho riêng Irovi trong app Cài đặt.",
+    "Irovi has no account, no servers, no ads, no analytics and no tracking. Nothing you enter is uploaded or shared.":
+        "Irovi không có tài khoản, máy chủ, quảng cáo, công cụ phân tích hay theo dõi. Không có gì bạn nhập được tải lên hay chia sẻ.",
+    "Irovi is a wellness diary, not a medical device. It does not diagnose or recommend treatment. Talk to your doctor about your health.":
+        "Irovi là nhật ký sức khỏe, không phải thiết bị y tế. App không chẩn đoán hay gợi ý điều trị. Hãy trao đổi với bác sĩ về sức khỏe của bạn.",
+    "Irovi is a wellness diary. It is not a medical device and does not diagnose, treat or prevent any condition.":
+        "Irovi là nhật ký sức khỏe. App không phải thiết bị y tế và không chẩn đoán, điều trị hay phòng ngừa bệnh nào.",
+    "Keep your hemoglobin and ferritin results in one place": "Lưu kết quả hemoglobin và ferritin ở một nơi",
+    "Language": "Ngôn ngữ",
+    "Latest · %@": "Mới nhất · %@",
+    "Learn": "Tìm hiểu",
+    "Lentils, beans, chickpeas, tofu": "Đậu lăng, đậu đỗ, đậu gà, đậu phụ",
+    "My medicines": "Thuốc của tôi",
+    "Name, as on the package": "Tên thuốc, như trên vỏ hộp",
+    "New medicine": "Thêm thuốc",
+    "New result": "Kết quả mới",
+    "Next blood test": "Lần xét nghiệm tới",
+    "No medicines": "Chưa có thuốc",
+    "No results yet": "Chưa có kết quả",
+    "Not set": "Chưa đặt",
+    "Note": "Ghi chú",
+    "Notifications are off": "Thông báo đang tắt",
+    "Nutrition information in Irovi is general and comes from public sources such as the US National Institutes of Health and the World Health Organization.":
+        "Thông tin dinh dưỡng trong Irovi là thông tin chung, lấy từ nguồn công khai như Viện Y tế Quốc gia Hoa Kỳ và Tổ chức Y tế Thế giới.",
+    "OK": "OK",
+    "Only enter a target your doctor gave you. Irovi doesn't suggest targets.": "Chỉ nhập mục tiêu bác sĩ đưa cho bạn. Irovi không gợi ý mục tiêu.",
+    "Open Settings": "Mở Cài đặt",
+    "Optional, e.g. lab name": "Không bắt buộc, ví dụ tên phòng xét nghiệm",
+    "Orange, guava, tomato, bell pepper": "Cam, ổi, cà chua, ớt chuông",
+    "Paused": "Đang tạm dừng",
+    "Plan my next blood test": "Hẹn lần xét nghiệm tới",
+    "Poultry & eggs": "Gia cầm & trứng",
+    "Privacy": "Quyền riêng tư",
+    "Red meat & liver": "Thịt đỏ & gan",
+    "Remind me that morning": "Nhắc tôi sáng hôm đó",
+    "Reminder %lld": "Lần nhắc %lld",
+    "Reminder times": "Giờ nhắc",
+    "Reminder: %@": "Nhắc: %@",
+    "Reminders": "Lời nhắc",
+    "Reminders are local notifications created on your iPhone. You can export your data as a CSV file or delete it all in Settings.":
+        "Lời nhắc là thông báo được tạo ngay trên iPhone. Bạn có thể xuất dữ liệu thành file CSV hoặc xoá hết trong Cài đặt.",
+    "Reminders on": "Bật nhắc",
+    "Remove target": "Xoá mục tiêu",
+    "Results": "Kết quả",
+    "Save": "Lưu",
+    "Settings": "Cài đặt",
+    "Shellfish & fish": "Hải sản & cá",
+    "Short reads on iron and your blood, with sources.": "Bài đọc ngắn về sắt và sức khỏe máu, có ghi nguồn.",
+    "Sources": "Nguồn",
+    "Spinach, kale, amaranth, water spinach": "Rau bina, cải xoăn, rau dền, rau muống",
+    "Start": "Bắt đầu",
+    "Target": "Mục tiêu",
+    "Tea & coffee away from meals": "Trà, cà phê xa bữa ăn",
+    "Test date": "Ngày xét nghiệm",
+    "The medicine is saved. Turn on notifications for Irovi in Settings to get reminders.":
+        "Đã lưu thuốc. Bật thông báo cho Irovi trong Cài đặt để nhận lời nhắc.",
+    "The next blood test reminder is on the Blood tab.": "Lời nhắc lần xét nghiệm tới nằm ở tab Máu.",
+    "Tick the iron-rich foods you ate today": "Đánh dấu món giàu sắt bạn đã ăn hôm nay",
+    "Time": "Giờ",
+    "Tip of the day": "Mẹo hôm nay",
+    "Today": "Hôm nay",
+    "Tomorrow": "Ngày mai",
+    "Turn on notifications for Irovi in Settings to get reminders.": "Bật thông báo cho Irovi trong Cài đặt để nhận lời nhắc.",
+    "Units": "Đơn vị",
+    "Value": "Giá trị",
+    "Version": "Phiên bản",
+    "Vitamin C with a meal": "Vitamin C trong bữa ăn",
+    "You can change these any time in Settings.": "Bạn có thể đổi lại bất cứ lúc nào trong Cài đặt.",
+    "Your blood test is planned for today.": "Hôm nay là ngày bạn hẹn xét nghiệm máu.",
+    "Your checklist, blood results and medicines will be removed from this iPhone. This can't be undone.":
+        "Checklist, kết quả xét nghiệm và thuốc sẽ bị xoá khỏi iPhone này. Không thể hoàn tác.",
+    "Your daily goal": "Mục tiêu mỗi ngày",
+    "Your data": "Dữ liệu của bạn",
+    "Your doctor's target": "Mục tiêu bác sĩ đưa",
+    "Your medicines": "Thuốc của bạn",
+    "Your privacy": "Quyền riêng tư của bạn",
+    "food groups a day": "nhóm thực phẩm mỗi ngày",
+    "✓": "✓",
+    "🔥 %lld days in a row": "🔥 %lld ngày liên tiếp",
+    "🔥 1 day in a row": "🔥 1 ngày liên tiếp",
+    "🩸": "🩸",
+}
+
+
+def extracted_keys():
+    keys = set()
+    for path in glob.glob("build/**/Irovi.build/**/*.stringsdata", recursive=True):
+        if "Tests" in path:
+            continue
+        with open(path) as f:
+            data = json.load(f)
+        for entry in data.get("tables", {}).get("Localizable", []):
+            keys.add(entry["key"])
+    return keys
+
+
+def main():
+    keys = extracted_keys()
+    if not keys:
+        sys.exit("No .stringsdata found — build the app first.")
+    missing = sorted(k for k in keys if k not in VI)
+    if missing:
+        print("Missing Vietnamese for:")
+        for key in missing:
+            print("  ", repr(key))
+        sys.exit(1)
+    catalog = {
+        "sourceLanguage": "en",
+        "strings": {
+            key: {"localizations": {"vi": {"stringUnit": {"state": "translated", "value": VI[key]}}}}
+            for key in sorted(keys)
+        },
+        "version": "1.0",
+    }
+    with open("Irovi/Resources/Localizable.xcstrings", "w", encoding="utf-8") as f:
+        json.dump(catalog, f, ensure_ascii=False, indent=2)
+    unused = sorted(set(VI) - keys)
+    print(f"{len(keys)} strings written. Unused translations: {len(unused)}")
+
+
+if __name__ == "__main__":
+    main()

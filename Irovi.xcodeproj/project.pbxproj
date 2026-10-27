@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14D4D9E899AA612243F8F91A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B33698322E711E891DD46E /* OnboardingView.swift */; };
+		17C0B4B3FD01880632803306 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FA43379E6F025ECA8F294 /* SettingsView.swift */; };
+		1ABDEA6ED8780EDC4F1A3ED9 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */; };
+		1E6D5EC1FFCC8495E2C7799D /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC678F6FC482871869CBB6E /* LearnView.swift */; };
+		218836F9D629D00C9044671D /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496A9528205DDD58C06A3B7 /* Progress.swift */; };
+		389B3B07D45811CABEC2CBE3 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BEC7814119FB00ABBBE6 /* Foods.swift */; };
+		4ECAD8931758CDD2D5780A70 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */; };
+		53F4940D9E0DB0DE0982BFB1 /* CoreFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16AB594981AF380EF87BAD /* CoreFlowTests.swift */; };
+		6178CDBED84115EBB5E8443C /* MedicinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFAD86E2F3D2E9C57458D9 /* MedicinesView.swift */; };
+		708DF70E37B692491E709F45 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6256FA1006749A80844741B1 /* Localizable.xcstrings */; };
+		8093733C0CAD36F48D4054D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F416D0DFB46E8AC68E92D2 /* Assets.xcassets */; };
+		9A29D9C6DF6C4683A83EC677 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0EDAAC45E97F8356E53A4 /* Article.swift */; };
+		A1B268560AEB068AA6BF2688 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9735CBC20E509668C1DA5 /* Reminders.swift */; };
+		A6CF7FF69F213900DB062E64 /* BloodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D8AC5C7B68F8811929E5B /* BloodView.swift */; };
+		B73D309C68C41E4FAFE62ECE /* LabResultEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F01A8CD9D66B370E84986 /* LabResultEditor.swift */; };
+		BA75A71F5172EDD31BD5331B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328BCEE925682B378AF51E0 /* RootView.swift */; };
+		BC3D9A0F18F36C08CE72DD7D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727B745716C70F68443E799 /* Components.swift */; };
+		BF85F19D5E47C1DB09710BB0 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F670E8C0491C48AB78D3B48 /* TodayView.swift */; };
+		C1102DC89A0369C43ACEAD32 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C370FF6621B64710444064C /* Export.swift */; };
+		D8DC159C0A666D3571929F0B /* IroviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2971146F7F81E110B57BF /* IroviApp.swift */; };
+		DE7011C0CD34EA79E65A8798 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB335D9546FCF0EEE9E63B4 /* Palette.swift */; };
+		E4D50D1B50F3F3F66CC366E9 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58751422B4410EC0F19B4C8E /* Records.swift */; };
+		F7FD7FFC961038FF2CDCEBC8 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31017578B625D2ECD0EA29D /* CoreTests.swift */; };
+		FA802CC705E49EAFB37B5363 /* StoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F62A2D5CF6EA0F12D4BA2 /* StoreScreenshotTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		481DB8F6DA01A892B00B1421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9ABA8C7F666C4F28B9A143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A6F854701231EC488C4932;
+			remoteInfo = Irovi;
+		};
+		4C93B6BFA4993348AD58275C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9ABA8C7F666C4F28B9A143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A6F854701231EC488C4932;
+			remoteInfo = Irovi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6F62A2D5CF6EA0F12D4BA2 /* StoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreenshotTests.swift; sourceTree = "<group>"; };
+		0F670E8C0491C48AB78D3B48 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		19E2971146F7F81E110B57BF /* IroviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IroviApp.swift; sourceTree = "<group>"; };
+		1FEFAD86E2F3D2E9C57458D9 /* MedicinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesView.swift; sourceTree = "<group>"; };
+		2328BCEE925682B378AF51E0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		24217E760BD154B2E544DCB8 /* IroviTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IroviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368F01A8CD9D66B370E84986 /* LabResultEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabResultEditor.swift; sourceTree = "<group>"; };
+		3C4FA43379E6F025ECA8F294 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		58751422B4410EC0F19B4C8E /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		5C370FF6621B64710444064C /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		6256FA1006749A80844741B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		65B7A824866FBEF790E06EF9 /* Irovi.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Irovi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7727B745716C70F68443E799 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IroviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD2B555A775A2D754935F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A3B9735CBC20E509668C1DA5 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		BEC678F6FC482871869CBB6E /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		BF16AB594981AF380EF87BAD /* CoreFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFlowTests.swift; sourceTree = "<group>"; };
+		CE5D8AC5C7B68F8811929E5B /* BloodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodView.swift; sourceTree = "<group>"; };
+		D6F416D0DFB46E8AC68E92D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D817BEC7814119FB00ABBBE6 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		E31017578B625D2ECD0EA29D /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		E496A9528205DDD58C06A3B7 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		EBB335D9546FCF0EEE9E63B4 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		F4B33698322E711E891DD46E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F5F0EDAAC45E97F8356E53A4 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1836287DD30D28B2135CF9F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				19E2971146F7F81E110B57BF /* IroviApp.swift */,
+				2328BCEE925682B378AF51E0 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1E93190DA71E7FE8D26D1064 /* Blood */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D8AC5C7B68F8811929E5B /* BloodView.swift */,
+				368F01A8CD9D66B370E84986 /* LabResultEditor.swift */,
+			);
+			path = Blood;
+			sourceTree = "<group>";
+		};
+		3E7EE24B8BE8F693481E5C47 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				8DD2B555A775A2D754935F5D /* Info.plist */,
+				512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		42674786ED0DCDC7B28721FA /* Irovi */ = {
+			isa = PBXGroup;
+			children = (
+				1836287DD30D28B2135CF9F4 /* App */,
+				E9C870536E80CBAA539BE4E6 /* DesignSystem */,
+				BFB3B4DC1D2788F96AA91860 /* Features */,
+				5D94EE698D6B67C4EB7CBF21 /* Model */,
+				BA295D6A1123A714963EF8D4 /* Resources */,
+				92FBFEBF50C2302A9B6B1A6E /* Services */,
+				3E7EE24B8BE8F693481E5C47 /* Supporting */,
+			);
+			path = Irovi;
+			sourceTree = "<group>";
+		};
+		5D94EE698D6B67C4EB7CBF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D817BEC7814119FB00ABBBE6 /* Foods.swift */,
+				E496A9528205DDD58C06A3B7 /* Progress.swift */,
+				58751422B4410EC0F19B4C8E /* Records.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83EDECD2B618974C7EDBDC9C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1FEFAD86E2F3D2E9C57458D9 /* MedicinesView.swift */,
+				3C4FA43379E6F025ECA8F294 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8652AE96E60877D5C0B19721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B7A824866FBEF790E06EF9 /* Irovi.app */,
+				24217E760BD154B2E544DCB8 /* IroviTests.xctest */,
+				7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FBFEBF50C2302A9B6B1A6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */,
+				5C370FF6621B64710444064C /* Export.swift */,
+				A3B9735CBC20E509668C1DA5 /* Reminders.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B1109C47D86FBA362E81B885 /* IroviTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31017578B625D2ECD0EA29D /* CoreTests.swift */,
+			);
+			path = IroviTests;
+			sourceTree = "<group>";
+		};
+		B27D4CD5304D61B01DAD08C5 = {
+			isa = PBXGroup;
+			children = (
+				FF71CF9788268BD5483F82F3 /* Config */,
+				42674786ED0DCDC7B28721FA /* Irovi */,
+				B1109C47D86FBA362E81B885 /* IroviTests */,
+				E89E9FB92B2753ECA4FA82F6 /* IroviUITests */,
+				8652AE96E60877D5C0B19721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA295D6A1123A714963EF8D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6F416D0DFB46E8AC68E92D2 /* Assets.xcassets */,
+				6256FA1006749A80844741B1 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFB3B4DC1D2788F96AA91860 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1E93190DA71E7FE8D26D1064 /* Blood */,
+				F414F0DEC0F55F4388748E20 /* Learn */,
+				EEB074356CDB514A4548A175 /* Onboarding */,
+				83EDECD2B618974C7EDBDC9C /* Settings */,
+				DD1F517D20333858161D4FF6 /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DD1F517D20333858161D4FF6 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				0F670E8C0491C48AB78D3B48 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		E89E9FB92B2753ECA4FA82F6 /* IroviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF16AB594981AF380EF87BAD /* CoreFlowTests.swift */,
+				0C6F62A2D5CF6EA0F12D4BA2 /* StoreScreenshotTests.swift */,
+			);
+			path = IroviUITests;
+			sourceTree = "<group>";
+		};
+		E9C870536E80CBAA539BE4E6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				7727B745716C70F68443E799 /* Components.swift */,
+				EBB335D9546FCF0EEE9E63B4 /* Palette.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		EEB074356CDB514A4548A175 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F4B33698322E711E891DD46E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F414F0DEC0F55F4388748E20 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0EDAAC45E97F8356E53A4 /* Article.swift */,
+				BEC678F6FC482871869CBB6E /* LearnView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		FF71CF9788268BD5483F82F3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A6F854701231EC488C4932 /* Irovi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73D7EB0FD69A5E01B89A3C86 /* Build configuration list for PBXNativeTarget "Irovi" */;
+			buildPhases = (
+				D68E2C2B9A6322B5E13BB349 /* Sources */,
+				C913ECF2E1A217787B0B08F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Irovi;
+			packageProductDependencies = (
+			);
+			productName = Irovi;
+			productReference = 65B7A824866FBEF790E06EF9 /* Irovi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D81AC7BBE917C2F837C65C8 /* IroviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907FE29AD0973B5B85013F11 /* Build configuration list for PBXNativeTarget "IroviUITests" */;
+			buildPhases = (
+				5AD98D1AD8556D029B943CFB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B051DA7F72EF39E9ED7C84 /* PBXTargetDependency */,
+			);
+			name = IroviUITests;
+			packageProductDependencies = (
+			);
+			productName = IroviUITests;
+			productReference = 7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E2595CD76C12E95A1CA64DD2 /* IroviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CB7294DF7A7388B3952693 /* Build configuration list for PBXNativeTarget "IroviTests" */;
+			buildPhases = (
+				084957306CCE8CC7F0A9A40D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7173A9941A43296F4E0097 /* PBXTargetDependency */,
+			);
+			name = IroviTests;
+			packageProductDependencies = (
+			);
+			productName = IroviTests;
+			productReference = 24217E760BD154B2E544DCB8 /* IroviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9ABA8C7F666C4F28B9A143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					25A6F854701231EC488C4932 = {
+						DevelopmentTeam = 77H4K6A24V;
+						ProvisioningStyle = Automatic;
+					};
+					3D81AC7BBE917C2F837C65C8 = {
+						DevelopmentTeam = 77H4K6A24V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25A6F854701231EC488C4932;
+					};
+					E2595CD76C12E95A1CA64DD2 = {
+						DevelopmentTeam = 77H4K6A24V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53FB9CCF443DB20833C0F917 /* Build configuration list for PBXProject "Irovi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				vi,
+			);
+			mainGroup = B27D4CD5304D61B01DAD08C5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8652AE96E60877D5C0B19721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A6F854701231EC488C4932 /* Irovi */,
+				E2595CD76C12E95A1CA64DD2 /* IroviTests */,
+				3D81AC7BBE917C2F837C65C8 /* IroviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C913ECF2E1A217787B0B08F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8093733C0CAD36F48D4054D1 /* Assets.xcassets in Resources */,
+				708DF70E37B692491E709F45 /* Localizable.xcstrings in Resources */,
+				4ECAD8931758CDD2D5780A70 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084957306CCE8CC7F0A9A40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FD7FFC961038FF2CDCEBC8 /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD98D1AD8556D029B943CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F4940D9E0DB0DE0982BFB1 /* CoreFlowTests.swift in Sources */,
+				FA802CC705E49EAFB37B5363 /* StoreScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E2C2B9A6322B5E13BB349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A29D9C6DF6C4683A83EC677 /* Article.swift in Sources */,
+				A6CF7FF69F213900DB062E64 /* BloodView.swift in Sources */,
+				BC3D9A0F18F36C08CE72DD7D /* Components.swift in Sources */,
+				1ABDEA6ED8780EDC4F1A3ED9 /* DemoData.swift in Sources */,
+				C1102DC89A0369C43ACEAD32 /* Export.swift in Sources */,
+				389B3B07D45811CABEC2CBE3 /* Foods.swift in Sources */,
+				D8DC159C0A666D3571929F0B /* IroviApp.swift in Sources */,
+				B73D309C68C41E4FAFE62ECE /* LabResultEditor.swift in Sources */,
+				1E6D5EC1FFCC8495E2C7799D /* LearnView.swift in Sources */,
+				6178CDBED84115EBB5E8443C /* MedicinesView.swift in Sources */,
+				14D4D9E899AA612243F8F91A /* OnboardingView.swift in Sources */,
+				DE7011C0CD34EA79E65A8798 /* Palette.swift in Sources */,
+				218836F9D629D00C9044671D /* Progress.swift in Sources */,
+				E4D50D1B50F3F3F66CC366E9 /* Records.swift in Sources */,
+				A1B268560AEB068AA6BF2688 /* Reminders.swift in Sources */,
+				BA75A71F5172EDD31BD5331B /* RootView.swift in Sources */,
+				17C0B4B3FD01880632803306 /* SettingsView.swift in Sources */,
+				BF85F19D5E47C1DB09710BB0 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B7173A9941A43296F4E0097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A6F854701231EC488C4932 /* Irovi */;
+			targetProxy = 481DB8F6DA01A892B00B1421 /* PBXContainerItemProxy */;
+		};
+		69B051DA7F72EF39E9ED7C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A6F854701231EC488C4932 /* Irovi */;
+			targetProxy = 4C93B6BFA4993348AD58275C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		038E4F073CF3A589A1A08DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D518FB8F6F846D078E802AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Irovi/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		56D8A17CA3B79C479F162996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Irovi;
+			};
+			name = Release;
+		};
+		62B2106498B886E342FD2CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irovi.app/Irovi";
+			};
+			name = Release;
+		};
+		701F27F972E9207CBEE696B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Irovi/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F6A3B586C17F74294414907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A15AEBD57247D2FE5DAFA829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Irovi;
+			};
+			name = Debug;
+		};
+		F531F4B2CEEDCD7AEA32880A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irovi.app/Irovi";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CB7294DF7A7388B3952693 /* Build configuration list for PBXNativeTarget "IroviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F531F4B2CEEDCD7AEA32880A /* Debug */,
+				62B2106498B886E342FD2CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53FB9CCF443DB20833C0F917 /* Build configuration list for PBXProject "Irovi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038E4F073CF3A589A1A08DE8 /* Debug */,
+				8F6A3B586C17F74294414907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73D7EB0FD69A5E01B89A3C86 /* Build configuration list for PBXNativeTarget "Irovi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701F27F972E9207CBEE696B4 /* Debug */,
+				1D518FB8F6F846D078E802AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		907FE29AD0973B5B85013F11 /* Build configuration list for PBXNativeTarget "IroviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15AEBD57247D2FE5DAFA829 /* Debug */,
+				56D8A17CA3B79C479F162996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9ABA8C7F666C4F28B9A143 /* Project object */;
+}
