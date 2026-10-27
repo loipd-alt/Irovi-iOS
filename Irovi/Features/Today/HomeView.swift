@@ -24,8 +24,12 @@ struct HomeView: View {
     @Environment(AppRouter.self) private var router
     @State private var route: HomeRoute?
     @State private var pendingRoute: HomeRoute?
+    /// Refreshed when the app comes back and at midnight, so a suspended app
+    /// doesn't keep showing yesterday as today.
+    @State private var today = Date.now
+    @Environment(\.scenePhase) private var scenePhase
 
-    private var todayLog: DayLog? { logs.first { $0.dayKey == DayKey.make(.now) } }
+    private var todayLog: DayLog? { logs.first { $0.dayKey == DayKey.make(today) } }
     private var countsByDay: [String: Int] {
         Dictionary(logs.map { ($0.dayKey, $0.foods.count) }, uniquingKeysWith: max)
     }
@@ -36,11 +40,11 @@ struct HomeView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: Palette.Space.xl) {
                         PlateHero(eaten: todayLog?.foods ?? [], goal: goal,
-                                  streak: ChecklistProgress.streak(foodCountsByDay: countsByDay, goal: goal)) {
+                                  streak: ChecklistProgress.streak(foodCountsByDay: countsByDay, goal: goal, today: today)) {
                             route = .food
                         }
 
-                        WeekCard(countsByDay: countsByDay, goal: goal)
+                        WeekCard(countsByDay: countsByDay, goal: goal, today: today)
 
                         VStack(alignment: .leading, spacing: Palette.Space.m) {
                             SectionTitle(title: "Blood results") {
@@ -91,8 +95,19 @@ struct HomeView: View {
             }
             .onChange(of: router.openFoodLog, initial: true) { _, open in
                 guard open else { return }
-                router.openFoodLog = false
-                route = .food
+                // Give sheets open on other screens time to close first
+                // (they watch the same flag); a sheet can't open over them.
+                Task {
+                    try? await Task.sleep(for: .milliseconds(450))
+                    router.openFoodLog = false
+                    route = .food
+                }
+            }
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .active { today = .now }
+            }
+            .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
+                today = .now
             }
             .sheet(item: $route, onDismiss: openPending) { destination in
                 switch destination {
@@ -111,7 +126,7 @@ struct HomeView: View {
     }
 
     private var greeting: String {
-        switch Calendar.current.component(.hour, from: .now) {
+        switch Calendar.current.component(.hour, from: today) {
         case 5..<12: localized("Good morning")
         case 12..<18: localized("Good afternoon")
         default: localized("Good evening")
@@ -223,10 +238,11 @@ private struct PlateHero: View {
 private struct WeekCard: View {
     let countsByDay: [String: Int]
     let goal: Int
+    let today: Date
 
     private var days: [Date] {
-        let today = Calendar.current.startOfDay(for: .now)
-        return (0..<7).reversed().compactMap { Calendar.current.date(byAdding: .day, value: -$0, to: today) }
+        let start = Calendar.current.startOfDay(for: today)
+        return (0..<7).reversed().compactMap { Calendar.current.date(byAdding: .day, value: -$0, to: start) }
     }
 
     private func count(_ day: Date) -> Int { countsByDay[DayKey.make(day)] ?? 0 }

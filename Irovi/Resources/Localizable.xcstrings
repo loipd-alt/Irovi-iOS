@@ -1353,54 +1353,54 @@
         }
       }
     },
-    "Chicken, duck, turkey, eggs": {
+    "Chicken, duck, turkey": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chicken, duck, turkey, eggs"
+            "value": "Chicken, duck, turkey"
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gà, vịt, gà tây, trứng"
+            "value": "Gà, vịt, gà tây"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pollo, pato, pavo, huevos"
+            "value": "Pollo, pato, pavo"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Frango, pato, peru, ovos"
+            "value": "Frango, pato, peru"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Poulet, canard, dinde, œufs"
+            "value": "Poulet, canard, dinde"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Huhn, Ente, Pute, Eier"
+            "value": "Huhn, Ente, Pute"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "鶏肉、鴨肉、七面鳥、卵"
+            "value": "鶏肉、鴨肉、七面鳥"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ayam, bebek, kalkun, telur"
+            "value": "Ayam, bebek, kalkun"
           }
         }
       }
@@ -5929,54 +5929,54 @@
         }
       }
     },
-    "Poultry & eggs": {
+    "Poultry": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Poultry & eggs"
+            "value": "Poultry"
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gia cầm & trứng"
+            "value": "Gia cầm"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aves y huevos"
+            "value": "Aves"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aves e ovos"
+            "value": "Aves"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Volaille & œufs"
+            "value": "Volaille"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Geflügel & Eier"
+            "value": "Geflügel"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "鶏肉・卵"
+            "value": "鶏肉・鴨肉"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Unggas & telur"
+            "value": "Unggas"
           }
         }
       }
@@ -6917,106 +6917,54 @@
         }
       }
     },
-    "Six groups: red meat, seafood, poultry and eggs, beans, leafy greens, fortified grains.": {
+    "Six groups: red meat, seafood, poultry, beans, leafy greens, fortified grains.": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Six groups: red meat, seafood, poultry and eggs, beans, leafy greens, fortified grains."
+            "value": "Six groups: red meat, seafood, poultry, beans, leafy greens, fortified grains."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sáu nhóm: thịt đỏ, hải sản, gia cầm và trứng, đậu, rau lá xanh, ngũ cốc bổ sung sắt."
+            "value": "Sáu nhóm: thịt đỏ, hải sản, gia cầm, đậu, rau lá xanh, ngũ cốc bổ sung sắt."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seis grupos: carne roja, marisco, aves y huevos, legumbres, verduras de hoja verde, cereales enriquecidos."
+            "value": "Seis grupos: carne roja, marisco, aves, legumbres, verduras de hoja verde, cereales enriquecidos."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seis grupos: carne vermelha, frutos do mar, aves e ovos, feijões, folhas verdes, cereais fortificados."
+            "value": "Seis grupos: carne vermelha, frutos do mar, aves, feijões, folhas verdes, cereais fortificados."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Six groupes : viande rouge, fruits de mer, volaille et œufs, légumineuses, légumes à feuilles, céréales enrichies."
+            "value": "Six groupes : viande rouge, fruits de mer, volaille, légumineuses, légumes à feuilles, céréales enrichies."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sechs Gruppen: rotes Fleisch, Meeresfrüchte, Geflügel und Eier, Bohnen, Blattgemüse, angereichertes Getreide."
+            "value": "Sechs Gruppen: rotes Fleisch, Meeresfrüchte, Geflügel, Bohnen, Blattgemüse, angereichertes Getreide."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "6つのグループ：赤身肉、魚介類、鶏肉と卵、豆類、葉物野菜、強化穀物。"
+            "value": "6つのグループ：赤身肉、魚介類、鶏肉など、豆類、葉物野菜、強化穀物。"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enam kelompok: daging merah, makanan laut, unggas dan telur, kacang, sayuran hijau, biji-bijian fortifikasi."
-          }
-        }
-      }
-    },
-    "Skip": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skip"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bỏ qua"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Omitir"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pular"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passer"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Überspringen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "スキップ"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lewati"
+            "value": "Enam kelompok: daging merah, makanan laut, unggas, kacang, sayuran hijau, biji-bijian fortifikasi."
           }
         }
       }
@@ -8213,58 +8161,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nilai"
-          }
-        }
-      }
-    },
-    "Version": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Phiên bản"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versión"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versão"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Version"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "バージョン"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versi"
           }
         }
       }

@@ -30,6 +30,7 @@ enum Palette {
     // Leaf — plant foods, habits, goal reached
     static let leaf = dynamic(0x237A4B, 0x6CD39A)
     static let leafSoft = dynamic(0xDDF3E6, 0x163527)
+    static let onLeaf = dynamic(0xFFFFFF, 0x0E2A1A)
     static let onLeafSoft = dynamic(0x17583A, 0xA6E9C4)
 
     // Amber — ferritin
@@ -43,7 +44,7 @@ enum Palette {
 
     /// Floating add button.
     static let actionGradient = LinearGradient(
-        colors: [dynamic(0xE8453C, 0xFF7A6E), dynamic(0xB8174A, 0xD9466E)],
+        colors: [dynamic(0xE8453C, 0xD9433B), dynamic(0xB8174A, 0xA8124A)],
         startPoint: .topLeading, endPoint: .bottomTrailing)
 
     enum Radius {

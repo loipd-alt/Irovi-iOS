@@ -130,7 +130,7 @@ struct OnboardingView: View {
                         }
                     }
                     .accessibilityHidden(true)
-                    Text("Six groups: red meat, seafood, poultry and eggs, beans, leafy greens, fortified grains.")
+                    Text("Six groups: red meat, seafood, poultry, beans, leafy greens, fortified grains.")
                         .font(.footnote)
                         .foregroundStyle(Palette.textSecondary)
                         .fixedSize(horizontal: false, vertical: true)

@@ -46,7 +46,7 @@ enum HemoglobinUnit: String, CaseIterable, Identifiable {
 
     func format(_ gPerDL: Double) -> String {
         let value = display(gPerDL)
-        return self == .gPerDL ? value.formatted(.number.precision(.fractionLength(1))) : value.formatted(.number.precision(.fractionLength(0)))
+        return self == .gPerDL ? value.formatted(.number.precision(.fractionLength(1))) : value.formatted(.number.precision(.fractionLength(0)).grouping(.never))
     }
 }
 

@@ -14,6 +14,7 @@ enum BloodMetric: String, CaseIterable, Identifiable {
 /// Irovi shows numbers only; it never labels a value as low, normal or high.
 struct BloodView: View {
     @Environment(\.modelContext) private var context
+    @Environment(AppRouter.self) private var router
     @Query(sort: \LabResult.date) private var results: [LabResult]
 
     @AppStorage(Prefs.hbUnit) private var unitRaw = HemoglobinUnit.gPerDL.rawValue
@@ -70,6 +71,10 @@ struct BloodView: View {
             }
             .sheet(item: $editorItem) { item in LabResultEditor(existing: item.result) }
             .sheet(isPresented: $showTarget) { TargetEditor(metric: metric) }
+            // The widget was tapped: make way for Home's food log.
+            .onChange(of: router.openFoodLog) { _, open in
+                if open { editorItem = nil; showTarget = false }
+            }
         }
     }
 
@@ -118,7 +123,7 @@ struct BloodView: View {
                             .foregroundStyle(Palette.textSecondary)
                     }
                     HStack(spacing: Palette.Space.s) {
-                        Text("Latest · \(latest.date.formatted(date: .abbreviated, time: .omitted))")
+                        Text("Latest · \(latest.date, format: .dateTime.day().month(.abbreviated).year())")
                         if points.count >= 2 {
                             let previous = points[points.count - 2]
                             let delta = latest.value - previous.value
@@ -229,7 +234,7 @@ private struct ResultRow: View {
                     Text(verbatim: "Hb \(unit.format(hb)) \(unit.symbol)")
                 }
                 if let ferritin = result.ferritin {
-                    Text(verbatim: "Ferritin \(Ferritin.format(ferritin)) \(Ferritin.symbol)")
+                    Text(verbatim: "\(localized("Ferritin")) \(Ferritin.format(ferritin)) \(Ferritin.symbol)")
                 }
             }
             .font(.subheadline.monospacedDigit())

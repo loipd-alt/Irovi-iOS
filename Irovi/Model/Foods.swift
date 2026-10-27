@@ -23,7 +23,7 @@ enum FoodGroup: String, CaseIterable, Identifiable, Codable {
         switch self {
         case .redMeat: localized("Red meat & liver")
         case .seafood: localized("Shellfish & fish")
-        case .poultry: localized("Poultry & eggs")
+        case .poultry: localized("Poultry")
         case .legumes: localized("Beans & tofu")
         case .greens: localized("Dark leafy greens")
         case .fortified: localized("Fortified grains & seeds")
@@ -34,7 +34,7 @@ enum FoodGroup: String, CaseIterable, Identifiable, Codable {
         switch self {
         case .redMeat: localized("Beef, pork, lamb, liver")
         case .seafood: localized("Clams, oysters, mussels, sardines")
-        case .poultry: localized("Chicken, duck, turkey, eggs")
+        case .poultry: localized("Chicken, duck, turkey")
         case .legumes: localized("Lentils, beans, chickpeas, tofu")
         case .greens: localized("Spinach, kale, amaranth, water spinach")
         case .fortified: localized("Fortified cereal, oats, pumpkin seeds")

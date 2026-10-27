@@ -21,12 +21,21 @@ PLACEHOLDER = re.compile(r"%(?:\d+\$)?(?:lld|ld|d|@|f|\.\d+f)")
 
 
 def extracted_keys():
-    keys = set()
+    """Keys from the newest .stringsdata of each Swift source file, so strings
+    removed from the code don't linger from older build folders."""
+    import os
+    newest = {}
     for path in glob.glob("build/**/Irovi.build/**/*.stringsdata", recursive=True):
         if "Tests" in path:
             continue
         with open(path) as f:
             data = json.load(f)
+        source = data.get("source", path)
+        mtime = os.path.getmtime(path)
+        if source not in newest or mtime > newest[source][0]:
+            newest[source] = (mtime, data)
+    keys = set()
+    for _, data in newest.values():
         for entry in data.get("tables", {}).get("Localizable", []):
             keys.add(entry["key"])
     return keys

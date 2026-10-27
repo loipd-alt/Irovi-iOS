@@ -35,7 +35,7 @@ YOUR DAY AT A GLANCE
 See today's iron plate, your week and your latest blood results on one screen.
 
 LOG IN A FEW TAPS
-Tap + to log the iron-rich food groups you ate, today or yesterday: red meat, shellfish and fish, poultry and eggs, beans and tofu, dark leafy greens, and fortified grains. Set a daily goal and keep a streak going.
+Tap + to log the iron-rich food groups you ate, today or yesterday: red meat, shellfish and fish, poultry, beans and tofu, dark leafy greens, and fortified grains. Set a daily goal and keep a streak going.
 
 HELP YOUR BODY ABSORB IT
 Two simple habits to tick off: vitamin C with a meal, and tea or coffee between meals.
@@ -101,7 +101,7 @@ TỔNG QUAN MỘT MÀN HÌNH
 Xem bữa ăn đủ sắt hôm nay, cả tuần và kết quả xét nghiệm mới nhất trên một màn hình.
 
 GHI NHANH VÀI CHẠM
-Bấm + để ghi các nhóm thực phẩm giàu sắt đã ăn, hôm nay hoặc hôm qua: thịt đỏ, hải sản và cá, gia cầm và trứng, đậu và đậu phụ, rau lá xanh đậm, ngũ cốc bổ sung sắt. Đặt mục tiêu mỗi ngày và giữ chuỗi ngày liên tiếp.
+Bấm + để ghi các nhóm thực phẩm giàu sắt đã ăn, hôm nay hoặc hôm qua: thịt đỏ, hải sản và cá, gia cầm, đậu và đậu phụ, rau lá xanh đậm, ngũ cốc bổ sung sắt. Đặt mục tiêu mỗi ngày và giữ chuỗi ngày liên tiếp.
 
 GIÚP CƠ THỂ HẤP THU
 Hai thói quen đơn giản để đánh dấu: ăn kèm vitamin C, và uống trà, cà phê giữa các bữa.
@@ -138,7 +138,7 @@ Irovi là nhật ký sức khỏe, không phải thiết bị y tế. App không
 Nếu nộp bằng tài khoản **cá nhân**, xoá dòng "Published by…".
 
 ```text
-Irovi is a wellness diary for people who want more iron in their diet. It does not measure anything with the device's sensors, it does not diagnose, and it never recommends medicines, supplements or doses.
+Irovi is a wellness diary for people who want more iron in their diet. It is not a blood pressure or vital-signs log. It does not measure anything with the device's sensors, it does not diagnose, and it never recommends medicines, supplements or doses.
 
 • No account or sign-in. Launch the app, go through the short welcome (language, three intro pages, daily goal), and every feature is available.
 • Home tab: an overview of today, the week and the latest blood results. Tap "Log food" or the + button to tick iron-rich food groups and two absorption habits.

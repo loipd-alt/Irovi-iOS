@@ -27,11 +27,14 @@ struct MedicinesView: View {
                             }
                         }
                     }
-                }
-                .onDelete { offsets in
-                    offsets.map { medicines[$0] }.forEach(context.delete)
-                    try? context.save()
-                    Task { await Reminders.sync(context) }
+                    // Own button rather than .onDelete, so the label follows the app's language.
+                    .swipeActions {
+                        Button("Delete", role: .destructive) {
+                            context.delete(medicine)
+                            try? context.save()
+                            Task { await Reminders.sync(context) }
+                        }
+                    }
                 }
             } footer: {
                 Text("Add only medicines a doctor or pharmacist told you to take. Irovi reminds you at the times you choose; it doesn't suggest medicines or doses.")
@@ -88,8 +91,10 @@ struct MedicineEditor: View {
                 Section {
                     ForEach(times.indices, id: \.self) { index in
                         DatePicker("Reminder \(index + 1)", selection: $times[index], displayedComponents: .hourAndMinute)
+                            .swipeActions {
+                                Button("Delete", role: .destructive) { times.remove(at: index) }
+                            }
                     }
-                    .onDelete { times.remove(atOffsets: $0) }
                     if times.count < 4 {
                         Button("Add a time") { times.append(.todayAt(minutes: 20 * 60)) }
                     }

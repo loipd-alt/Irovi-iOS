@@ -10,8 +10,13 @@ struct HistoryView: View {
 
     @State private var month = Calendar.current.dateInterval(of: .month, for: .now)?.start ?? .now
     @State private var openDay: DayItem?
+    @Environment(AppRouter.self) private var router
 
-    private let calendar = Calendar.current
+    private let calendar: Calendar = {
+        var calendar = Calendar.current
+        calendar.locale = AppLanguage.current.locale
+        return calendar
+    }()
 
     private var countsByDay: [String: Int] {
         Dictionary(logs.map { ($0.dayKey, $0.foods.count) }, uniquingKeysWith: max)
@@ -49,6 +54,9 @@ struct HistoryView: View {
         .navigationTitle("History")
         .navigationBarTitleDisplayMode(.inline)
         .sheet(item: $openDay) { LogFoodView(date: $0.date) }
+        .onChange(of: router.openFoodLog) { _, open in
+            if open { openDay = nil }
+        }
     }
 
     private var monthHeader: some View {
@@ -106,7 +114,7 @@ struct HistoryView: View {
                 }
                 Text(day, format: .dateTime.day())
                     .font(.subheadline.weight(isToday ? .bold : .medium))
-                    .foregroundStyle(met ? .white : (isFuture ? Palette.textSecondary.opacity(0.4) : Palette.textPrimary))
+                    .foregroundStyle(met ? Palette.onLeaf : (isFuture ? Palette.textSecondary.opacity(0.4) : Palette.textPrimary))
             }
             .frame(width: 40, height: 40)
             .frame(maxWidth: .infinity)
