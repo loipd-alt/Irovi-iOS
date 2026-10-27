@@ -7,3 +7,5 @@ IROVI_BUNDLE_ID = com.irovi.app
 DEVELOPMENT_TEAM = 77H4K6A24V
 CODE_SIGN_STYLE = Automatic
 IROVI_APP_STORE_ID =
+//   IROVI_PRIVACY_URL  privacy policy page, opened from Settings → About (same link as App Store Connect).
+IROVI_PRIVACY_URL = https:/$()/nguyenhuydiem.netlify.app/policy

@@ -44,6 +44,8 @@
 	</array>
 	<key>IroviAppStoreID</key>
 	<string>$(IROVI_APP_STORE_ID)</string>
+	<key>IroviPrivacyPolicyURL</key>
+	<string>$(IROVI_PRIVACY_URL)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>

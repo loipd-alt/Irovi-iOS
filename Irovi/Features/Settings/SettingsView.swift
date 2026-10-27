@@ -82,7 +82,6 @@ struct SettingsView: View {
                 Section("About") {
                     NavigationLink("Privacy") { PrivacyView() }
                     NavigationLink("Health information") { HealthNoteView() }
-                    LabeledContent("Version", value: Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")
                 }
             }
             .navigationTitle("Settings")
@@ -149,6 +148,10 @@ struct PrivacyView: View {
                 Text("Everything you enter in Irovi (your checklist, blood test results and medicines) is stored only on this iPhone.")
                 Text("Irovi has no account, no servers, no ads, no analytics and no tracking. Nothing you enter is uploaded or shared.")
                 Text("Reminders are local notifications created on your iPhone. You can export your data as a CSV file or delete it all in Settings.")
+                if let url = AppLinks.privacyPolicy {
+                    Link("Read the full privacy policy", destination: url)
+                        .font(.body.weight(.semibold))
+                }
             }
             .foregroundStyle(Palette.textPrimary)
             .padding(Palette.Space.gutter)

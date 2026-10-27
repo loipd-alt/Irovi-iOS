@@ -46,7 +46,7 @@ Lấy **Apple ID** (dãy số) ở General › App Information, điền vào `Co
 
 ## 5. App Privacy
 
-- Privacy Policy URL: link ở bước "Trước khi bắt đầu"
+- Privacy Policy URL: `https://nguyenhuydiem.netlify.app/policy` (cùng link trong app, khai ở `Config/Signing.xcconfig` dòng `IROVI_PRIVACY_URL`)
 - Data Collection: **No, we do not collect data from this app** → **Publish**
 
 ## 6. Trang phiên bản 1.0
