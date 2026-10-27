@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Hai loại sắt trong thức ăn",
+    "summary": "Sắt từ thịt và hải sản được cơ thể hấp thu dễ hơn sắt từ thực vật.",
+    "body": [
+      "Thức ăn có hai dạng sắt. Sắt heme có trong thịt, hải sản và gia cầm. Sắt không heme có trong thực vật như đậu, đậu lăng, đậu phụ, rau lá xanh đậm, và trong thực phẩm bổ sung sắt như một số loại ngũ cốc ăn sáng.",
+      "Cơ thể hấp thu sắt heme dễ hơn sắt không heme. Ăn thịt, hải sản hoặc gia cầm cùng với thực phẩm thực vật cũng giúp hấp thu thêm sắt từ thực vật.",
+      "Nếu bạn ăn ít hoặc không ăn thịt, thực vật vẫn cung cấp sắt. Hãy ăn kèm thực phẩm giàu vitamin C để hấp thu tốt hơn."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "Vitamin C giúp hấp thu sắt từ thực vật",
+    "summary": "Ăn đậu, rau xanh, ngũ cốc kèm trái cây hoặc rau giàu vitamin C.",
+    "body": [
+      "Vitamin C giúp cơ thể hấp thu sắt không heme, loại sắt có trong thực vật và ngũ cốc bổ sung sắt.",
+      "Vài cách kết hợp dễ làm: đậu lăng nấu cà chua, rau bina vắt thêm chanh, ngũ cốc ăn sáng với dâu tây hoặc cam, đậu phụ xào ớt chuông hoặc bông cải xanh.",
+      "Ổi, cam quýt, kiwi, dâu tây, cà chua, ớt chuông và bông cải xanh đều giàu vitamin C."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Trà, cà phê và canxi",
+    "summary": "Một số đồ uống và thực phẩm có thể làm giảm lượng sắt hấp thu từ bữa ăn.",
+    "body": [
+      "Trà và cà phê có polyphenol, còn sữa và các món từ sữa có canxi. Cả hai đều có thể làm giảm lượng sắt cơ thể hấp thu từ cùng bữa ăn.",
+      "Bạn không cần bỏ hẳn. Nhiều người chỉ cần uống trà, cà phê giữa các bữa thay vì ngay trong bữa ăn giàu sắt.",
+      "Nếu bạn uống viên canxi, hãy hỏi bác sĩ hoặc dược sĩ thời điểm uống phù hợp."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "Mỗi người cần bao nhiêu sắt?",
+    "summary": "Nhu cầu mỗi ngày tuỳ theo tuổi, giới tính và việc mang thai.",
+    "body": [
+      "Viện Y tế Quốc gia Hoa Kỳ (NIH) khuyến nghị lượng sắt mỗi ngày như sau:",
+      "• Nam từ 19 tuổi: 8 mg",
+      "• Nữ 19–50 tuổi: 18 mg",
+      "• Nữ từ 51 tuổi: 8 mg",
+      "• Khi mang thai: 27 mg",
+      "• Khi cho con bú (19–50 tuổi): 9 mg",
+      "• Tuổi 14–18: nam 11 mg, nữ 15 mg",
+      "Người không ăn thịt có thể cần khoảng 1,8 lần các mức trên, vì sắt từ thực vật khó hấp thu hơn.",
+      "Đừng tự uống viên sắt nếu bác sĩ không khuyên. Thừa sắt có thể gây hại, và viên sắt là nguyên nhân ngộ độc thường gặp ở trẻ nhỏ, nên hãy để xa tầm tay trẻ em."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "Hemoglobin và ferritin cho biết điều gì",
+    "summary": "Hai chỉ số xét nghiệm máu thường gặp, giải thích dễ hiểu.",
+    "body": [
+      "Hemoglobin (Hb) là protein trong hồng cầu, mang oxy đi khắp cơ thể.",
+      "Ferritin là protein dự trữ sắt. Xét nghiệm ferritin cho biết phần nào lượng sắt cơ thể đang dự trữ.",
+      "Khoảng bình thường khác nhau giữa các phòng xét nghiệm và tuỳ theo tuổi, giới tính, việc mang thai. Irovi không đánh giá chỉ số của bạn. Hãy hỏi bác sĩ kết quả có ý nghĩa gì với bạn."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Khi nào nên đi khám",
+    "summary": "Có những dấu hiệu nên đi kiểm tra thay vì tự đoán.",
+    "body": [
+      "Theo Tổ chức Y tế Thế giới, thiếu máu có thể gây mệt mỏi, yếu sức, chóng mặt và khó thở.",
+      "Hãy đi khám nếu bạn thường xuyên mệt bất thường hoặc khó thở, kinh nguyệt nhiều, đang mang thai hoặc định có thai, hoặc trước khi bắt đầu uống bất kỳ viên sắt nào.",
+      "Chỉ xét nghiệm máu mới cho biết lượng sắt của bạn. Irovi giúp bạn theo dõi bữa ăn và kết quả, nhưng không thể cho biết bạn có bị thiếu máu hay không."
+    ]
+  }
+]

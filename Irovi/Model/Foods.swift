@@ -21,23 +21,23 @@ enum FoodGroup: String, CaseIterable, Identifiable, Codable {
 
     var name: String {
         switch self {
-        case .redMeat: String(localized: "Red meat & liver")
-        case .seafood: String(localized: "Shellfish & fish")
-        case .poultry: String(localized: "Poultry & eggs")
-        case .legumes: String(localized: "Beans & tofu")
-        case .greens: String(localized: "Dark leafy greens")
-        case .fortified: String(localized: "Fortified grains & seeds")
+        case .redMeat: localized("Red meat & liver")
+        case .seafood: localized("Shellfish & fish")
+        case .poultry: localized("Poultry & eggs")
+        case .legumes: localized("Beans & tofu")
+        case .greens: localized("Dark leafy greens")
+        case .fortified: localized("Fortified grains & seeds")
         }
     }
 
     var examples: String {
         switch self {
-        case .redMeat: String(localized: "Beef, pork, lamb, liver")
-        case .seafood: String(localized: "Clams, oysters, mussels, sardines")
-        case .poultry: String(localized: "Chicken, duck, turkey, eggs")
-        case .legumes: String(localized: "Lentils, beans, chickpeas, tofu")
-        case .greens: String(localized: "Spinach, kale, amaranth, water spinach")
-        case .fortified: String(localized: "Fortified cereal, oats, pumpkin seeds")
+        case .redMeat: localized("Beef, pork, lamb, liver")
+        case .seafood: localized("Clams, oysters, mussels, sardines")
+        case .poultry: localized("Chicken, duck, turkey, eggs")
+        case .legumes: localized("Lentils, beans, chickpeas, tofu")
+        case .greens: localized("Spinach, kale, amaranth, water spinach")
+        case .fortified: localized("Fortified cereal, oats, pumpkin seeds")
         }
     }
 
@@ -60,15 +60,15 @@ enum IronHabit: String, CaseIterable, Identifiable, Codable {
 
     var name: String {
         switch self {
-        case .vitaminC: String(localized: "Vitamin C with a meal")
-        case .teaApart: String(localized: "Tea & coffee away from meals")
+        case .vitaminC: localized("Vitamin C with a meal")
+        case .teaApart: localized("Tea & coffee away from meals")
         }
     }
 
     var detail: String {
         switch self {
-        case .vitaminC: String(localized: "Orange, guava, tomato, bell pepper")
-        case .teaApart: String(localized: "Between meals rather than with them")
+        case .vitaminC: localized("Orange, guava, tomato, bell pepper")
+        case .teaApart: localized("Between meals rather than with them")
         }
     }
 }

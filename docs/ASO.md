@@ -55,6 +55,9 @@ Optional reminders for an iron-rich meal, for medicines you add yourself, and fo
 LEARN THE BASICS
 Short reads on iron in food, vitamin C, tea and coffee, daily needs, and what your results show, with sources from the US National Institutes of Health and the World Health Organization.
 
+IN YOUR LANGUAGE
+English, Vietnamese, Spanish, Portuguese (Brazil), French, German, Japanese and Indonesian. Switch any time in the app.
+
 PRIVATE
 No account, no ads, no tracking. Everything stays on your iPhone. Export your data as CSV or delete it any time.
 
@@ -118,6 +121,9 @@ Tuỳ chọn nhắc bữa ăn giàu sắt, nhắc thuốc do bạn tự thêm, n
 TÌM HIỂU
 Bài đọc ngắn về sắt trong thức ăn, vitamin C, trà và cà phê, nhu cầu sắt mỗi ngày, ý nghĩa các chỉ số, có nguồn từ Viện Y tế Quốc gia Hoa Kỳ và Tổ chức Y tế Thế giới.
 
+NHIỀU NGÔN NGỮ
+Tiếng Anh, tiếng Việt, tiếng Tây Ban Nha, tiếng Bồ Đào Nha (Brazil), tiếng Pháp, tiếng Đức, tiếng Nhật và tiếng Indonesia. Đổi bất cứ lúc nào ngay trong app.
+
 RIÊNG TƯ
 Không tài khoản, không quảng cáo, không theo dõi. Mọi dữ liệu nằm trên iPhone. Xuất CSV hoặc xoá bất cứ lúc nào.
 
@@ -134,7 +140,7 @@ Nếu nộp bằng tài khoản **cá nhân**, xoá dòng "Published by…".
 ```text
 Irovi is a wellness diary for people who want more iron in their diet. It does not measure anything with the device's sensors, it does not diagnose, and it never recommends medicines, supplements or doses.
 
-• No account or sign-in. Launch the app, finish the two-step welcome, and every feature is available.
+• No account or sign-in. Launch the app, go through the short welcome (language, three intro pages, daily goal), and every feature is available.
 • Home tab: an overview of today, the week and the latest blood results. Tap "Log food" or the + button to tick iron-rich food groups and two absorption habits.
 • History (Home → This week → History): month calendar of logged days; tap a past day to edit it.
 • Widget (small, medium, Lock Screen): today's progress and streak from a summary the app writes to its App Group. Tapping it opens the food log.

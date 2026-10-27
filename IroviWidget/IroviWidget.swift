@@ -15,6 +15,7 @@ struct PlateWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: "PlateWidget", provider: PlateProvider()) { entry in
             PlateWidgetView(entry: entry)
+                .environment(\.locale, AppLanguage.current.locale)
                 .widgetURL(URL(string: "irovi://log"))
         }
         .configurationDisplayName("Iron plate")

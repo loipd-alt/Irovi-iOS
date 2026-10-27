@@ -8,14 +8,16 @@ final class CoreFlowTests: XCTestCase {
 
     func testMainFlows() {
         let app = XCUIApplication()
-        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US", "-appLanguage", "en", "-IroviNoSplash", "YES"]
         app.launch()
 
-        // Welcome (only on first launch of this install).
-        if app.buttons["Continue"].waitForExistence(timeout: 3) {
+        // Welcome (only on first launch of this install): language, three intro pages, goal.
+        if app.buttons["Continue"].waitForExistence(timeout: 4) {
             app.buttons["Continue"].tap()
+            while app.buttons["Next"].waitForExistence(timeout: 2) { app.buttons["Next"].tap() }
             app.buttons["Start"].tap()
         }
+        XCTAssertTrue(app.tabBars.buttons["Home"].waitForExistence(timeout: 5))
 
         // Home → Log food: tick a food group. (The app reopens the last tab, so pick Home first.)
         app.tabBars.buttons["Home"].tap()

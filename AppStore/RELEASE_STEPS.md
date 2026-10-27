@@ -51,7 +51,7 @@ Lấy **Apple ID** (dãy số) ở General › App Information, điền vào `Co
 
 ## 6. Trang phiên bản 1.0
 
-- **Ảnh:** tải 6 ảnh `01` → `06` từ `AppStore/screenshots/en/` (ô 6.9") **hoặc** `AppStore/screenshots/en-6.5/` (ô 6.5"). Một bộ là đủ.
+- **Ảnh:** tải 5 ảnh `01` → `05` từ `AppStore/screenshots/en/` (ô 6.9") **hoặc** `AppStore/screenshots/en-6.5/` (ô 6.5"). Một bộ là đủ.
 - **Promotional Text, Description, Keywords:** chép từ `docs/ASO.md`.
 - Support URL, Copyright, Version `1.0.0`.
 

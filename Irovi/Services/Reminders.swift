@@ -26,13 +26,13 @@ enum Reminders {
 
         if plan.foodOn {
             result.append(daily(id: "food", minutes: plan.foodMinutes,
-                                body: String(localized: "Has your plate had something iron-rich today?")))
+                                body: localized("Has your plate had something iron-rich today?")))
         }
 
         for (index, medicine) in plan.medicines.enumerated() {
             for minutes in medicine.minutes {
                 result.append(daily(id: "med.\(index).\(minutes)", minutes: minutes,
-                                    body: String(localized: "Reminder: \(medicine.name)")))
+                                    body: localized("Reminder: \(medicine.name)")))
             }
         }
 
@@ -40,7 +40,7 @@ enum Reminders {
             var components = calendar.dateComponents([.year, .month, .day], from: date)
             components.hour = 9
             if let fire = calendar.date(from: components), fire > now {
-                let content = makeContent(String(localized: "Your blood test is planned for today."))
+                let content = makeContent(localized("Your blood test is planned for today."))
                 let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
                 result.append(UNNotificationRequest(identifier: prefix + "test", content: content, trigger: trigger))
             }
@@ -107,7 +107,7 @@ extension Int {
         components.hour = self / 60
         components.minute = self % 60
         let date = Calendar.current.date(from: components) ?? .now
-        return date.formatted(date: .omitted, time: .shortened)
+        return date.formatted(Date.FormatStyle(date: .omitted, time: .shortened, locale: AppLanguage.current.locale))
     }
 }
 

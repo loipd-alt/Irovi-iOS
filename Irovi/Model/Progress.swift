@@ -61,6 +61,7 @@ enum Ferritin {
 /// UserDefaults keys in one place.
 enum Prefs {
     static let onboarded = "onboarded"
+    static let onboardingStep = "onboardingStep"
     static let dailyGoal = "dailyGoal"
     static let hbUnit = "hbUnit"
     static let foodReminderOn = "foodReminderOn"

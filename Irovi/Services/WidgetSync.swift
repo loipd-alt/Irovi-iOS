@@ -20,6 +20,10 @@ enum WidgetSync {
         )
         guard snapshot != WidgetSnapshot.load() else { return }
         snapshot.save()
+        reloadWidget()
+    }
+
+    static func reloadWidget() {
         WidgetCenter.shared.reloadAllTimelines()
     }
 }

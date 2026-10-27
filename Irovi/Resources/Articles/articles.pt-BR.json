@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Dois tipos de ferro nos alimentos",
+    "summary": "O ferro de carnes e frutos do mar é absorvido com mais facilidade do que o ferro de vegetais.",
+    "body": [
+      "Os alimentos contêm duas formas de ferro. O ferro heme vem de carnes, frutos do mar e aves. O ferro não heme vem de vegetais, como feijão, lentilha, tofu e folhas verde-escuras, e de alimentos fortificados, como alguns cereais matinais.",
+      "Seu corpo absorve o ferro heme com mais facilidade do que o ferro não heme. Comer carne, frutos do mar ou aves junto com alimentos vegetais também ajuda você a absorver mais do ferro dos vegetais.",
+      "Se você come pouca ou nenhuma carne, os alimentos vegetais ainda podem fornecer ferro. Combine-os com alimentos ricos em vitamina C para ajudar na absorção."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "A vitamina C ajuda o ferro dos vegetais",
+    "summary": "Combine feijões, folhas e cereais com frutas ou legumes ricos em vitamina C.",
+    "body": [
+      "A vitamina C ajuda seu corpo a absorver o ferro não heme, o tipo encontrado em alimentos vegetais e cereais fortificados.",
+      "Combinações fáceis: lentilha com tomate, espinafre com um pouco de limão, cereal fortificado com morangos ou uma laranja, tofu refogado com pimentão ou brócolis.",
+      "Goiaba, frutas cítricas, kiwi, morangos, tomate, pimentões e brócolis são boas fontes de vitamina C."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Chá, café e cálcio",
+    "summary": "Algumas bebidas e alimentos podem reduzir quanto ferro você absorve de uma refeição.",
+    "body": [
+      "Chá e café contêm polifenóis, e os laticínios contêm cálcio. Ambos podem reduzir quanto ferro seu corpo absorve da mesma refeição.",
+      "Você não precisa abrir mão deles. Muitas pessoas simplesmente tomam chá ou café entre as refeições, e não junto com uma refeição rica em ferro.",
+      "Se você toma suplementos de cálcio, pergunte ao seu médico ou farmacêutico qual é o melhor horário para tomá-los."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "De quanto ferro as pessoas precisam?",
+    "summary": "A necessidade diária depende da idade, do sexo e da gravidez.",
+    "body": [
+      "Os Institutos Nacionais de Saúde dos EUA recomendam estas quantidades diárias de ferro:",
+      "• Homens a partir de 19 anos: 8 mg",
+      "• Mulheres de 19 a 50 anos: 18 mg",
+      "• Mulheres a partir de 51 anos: 8 mg",
+      "• Durante a gravidez: 27 mg",
+      "• Durante a amamentação (19 a 50 anos): 9 mg",
+      "• Adolescentes de 14 a 18 anos: 11 mg para meninos, 15 mg para meninas",
+      "Pessoas que não comem carne podem precisar de cerca de 1,8 vez essas quantidades, porque o ferro dos vegetais é absorvido com menos facilidade.",
+      "Não tome suplementos de ferro a menos que seu médico recomende. Ferro em excesso pode fazer mal, e os suplementos de ferro são uma causa comum de intoxicação em crianças pequenas, então mantenha-os fora do alcance delas."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "O que a hemoglobina e a ferritina mostram",
+    "summary": "Dois resultados comuns de exame de sangue, em palavras simples.",
+    "body": [
+      "A hemoglobina é a proteína dos glóbulos vermelhos que leva oxigênio pelo seu corpo.",
+      "A ferritina é uma proteína que armazena ferro. O exame de ferritina dá uma ideia de quanto ferro seu corpo tem em reserva.",
+      "As faixas saudáveis variam entre laboratórios e dependem de fatores como idade, sexo e gravidez. O Irovi não avalia seus valores. Pergunte ao seu médico o que seus resultados significam para você."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Quando falar com um médico",
+    "summary": "Alguns sinais merecem ser verificados, em vez de deixados para adivinhação.",
+    "body": [
+      "Segundo a Organização Mundial da Saúde, a anemia pode causar cansaço, fraqueza, tontura e falta de ar.",
+      "Fale com um médico se você costuma se sentir cansado ou com falta de ar fora do normal, se tem menstruação intensa, se está grávida ou planejando uma gravidez, ou antes de começar qualquer suplemento de ferro.",
+      "Um exame de sangue é a única forma de saber seus níveis de ferro. O Irovi ajuda você a acompanhar sua alimentação e seus resultados. Ele não pode dizer se você tem anemia."
+    ]
+  }
+]

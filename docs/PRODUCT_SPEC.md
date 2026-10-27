@@ -3,7 +3,7 @@
 **Một câu:** Irovi giúp người muốn cải thiện sức khỏe máu **ăn đủ thực phẩm giàu sắt mỗi ngày** và **theo dõi chỉ số Hb / ferritin** qua các lần xét nghiệm.
 
 - Tên trên store: `Irovi – Iron & Blood Health` · Tên dưới icon: `Irovi`
-- Bundle ID: `com.irovi.app` · iOS 17+ · iPhone · English + Tiếng Việt
+- Bundle ID: `com.irovi.app` · iOS 17+ · iPhone · 8 ngôn ngữ: English, Tiếng Việt, Español, Português (Brasil), Français, Deutsch, 日本語, Bahasa Indonesia (đổi ngay trong app)
 - Không tài khoản, không máy chủ, không AI, không quảng cáo. Dữ liệu chỉ ở trên máy.
 
 Lý do chọn hướng này: xem `MARKET_RESEARCH.md` (nhóm duy nhất vừa nhiều người cần vừa chưa có app tốt, ít giống Blood Tracker).
@@ -50,7 +50,7 @@ Người thiếu sắt / thiếu máu hoặc muốn phòng tránh: phụ nữ (k
 
 **Cài đặt:** mục tiêu mỗi ngày, nhắc nhở, danh sách thuốc, đơn vị Hb, ngôn ngữ (theo cài đặt iPhone), xuất CSV, xoá toàn bộ dữ liệu, quyền riêng tư, giới thiệu + lưu ý y tế.
 
-**Onboarding:** 2 màn: giới thiệu + lưu ý "không phải thiết bị y tế" → chọn mục tiêu mỗi ngày, bật nhắc (tuỳ chọn).
+**Mở app lần đầu:** Splash (logo trên gradient, ~1 giây) → **chọn ngôn ngữ** (8 ngôn ngữ hoặc theo iPhone, đổi là áp dụng ngay) → **3 trang giới thiệu** có hình (bữa ăn giàu sắt · chỉ số máu · nhắc nhở và riêng tư, kèm lưu ý "không phải thiết bị y tế"), có Bỏ qua / Quay lại → **mục tiêu mỗi ngày** + nhắc ăn (tuỳ chọn). Ngôn ngữ đổi lại được trong Cài đặt; widget và thông báo nhắc theo ngôn ngữ đã chọn.
 
 ## 3. Khác Blood Tracker thế nào
 

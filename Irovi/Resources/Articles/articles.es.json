@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Dos tipos de hierro en los alimentos",
+    "summary": "El hierro de la carne y el marisco se absorbe con más facilidad que el de las plantas.",
+    "body": [
+      "Los alimentos contienen dos formas de hierro. El hierro hemo procede de la carne, el marisco y las aves. El hierro no hemo procede de plantas como las alubias, las lentejas, el tofu y las verduras de hoja verde oscura, y de alimentos enriquecidos como algunos cereales de desayuno.",
+      "Tu cuerpo absorbe el hierro hemo con más facilidad que el no hemo. Comer carne, marisco o aves junto con alimentos vegetales también te ayuda a absorber más hierro de las plantas.",
+      "Si comes poca carne o nada, los alimentos vegetales también te aportan hierro. Combínalos con alimentos ricos en vitamina C para mejorar la absorción."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "La vitamina C ayuda con el hierro vegetal",
+    "summary": "Combina legumbres, verduras y cereales con frutas u hortalizas ricas en vitamina C.",
+    "body": [
+      "La vitamina C ayuda a tu cuerpo a absorber el hierro no hemo, el que hay en los alimentos vegetales y en los cereales enriquecidos.",
+      "Combinaciones fáciles: lentejas con tomate, espinacas con un chorrito de lima, cereales enriquecidos con fresas o una naranja, tofu salteado con pimiento o brócoli.",
+      "La guayaba, los cítricos, el kiwi, las fresas, el tomate, el pimiento y el brócoli son buenas fuentes de vitamina C."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Té, café y calcio",
+    "summary": "Algunas bebidas y alimentos pueden reducir el hierro que absorbes de una comida.",
+    "body": [
+      "El té y el café contienen polifenoles, y los lácteos contienen calcio. Ambos pueden reducir el hierro que tu cuerpo absorbe de esa misma comida.",
+      "No hace falta dejarlos. Muchas personas simplemente toman el té o el café entre comidas en lugar de con una comida rica en hierro.",
+      "Si tomas suplementos de calcio, pregunta a tu médico o farmacéutico cuál es el mejor momento para tomarlos."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "¿Cuánto hierro necesitamos?",
+    "summary": "Las necesidades diarias dependen de la edad, el sexo y el embarazo.",
+    "body": [
+      "Los Institutos Nacionales de Salud de EE. UU. recomiendan estas cantidades diarias de hierro:",
+      "• Hombres de 19 años o más: 8 mg",
+      "• Mujeres de 19 a 50 años: 18 mg",
+      "• Mujeres de 51 años o más: 8 mg",
+      "• Durante el embarazo: 27 mg",
+      "• Durante la lactancia (19 a 50 años): 9 mg",
+      "• Adolescentes de 14 a 18 años: 11 mg los chicos, 15 mg las chicas",
+      "Las personas que no comen carne pueden necesitar unas 1,8 veces estas cantidades, porque el hierro de las plantas se absorbe con menos facilidad.",
+      "No tomes suplementos de hierro a menos que te los recomiende tu médico. El exceso de hierro puede ser perjudicial, y los suplementos de hierro son una causa frecuente de intoxicación en niños pequeños, así que guárdalos fuera de su alcance."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "Qué indican la hemoglobina y la ferritina",
+    "summary": "Dos resultados de análisis habituales, en palabras sencillas.",
+    "body": [
+      "La hemoglobina es la proteína de los glóbulos rojos que transporta el oxígeno por tu cuerpo.",
+      "La ferritina es una proteína que almacena hierro. Un análisis de ferritina da una idea de cuánto hierro tiene tu cuerpo en reserva.",
+      "Los rangos saludables varían entre laboratorios y dependen de factores como la edad, el sexo y el embarazo. Irovi no valora tus valores. Pregunta a tu médico qué significan tus resultados en tu caso."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Cuándo hablar con un médico",
+    "summary": "Algunas señales merecen revisarse en lugar de hacer suposiciones.",
+    "body": [
+      "Según la Organización Mundial de la Salud, la anemia puede causar cansancio, debilidad, mareos y falta de aire.",
+      "Habla con un médico si a menudo te sientes inusualmente cansado o te falta el aire, si tienes reglas abundantes, si estás embarazada o planeas un embarazo, o antes de empezar cualquier suplemento de hierro.",
+      "Un análisis de sangre es la única forma de conocer tus niveles de hierro. Irovi te ayuda a llevar un registro de tu alimentación y tus resultados. No puede decirte si tienes anemia."
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Dua jenis zat besi dalam makanan",
+    "summary": "Zat besi dari daging dan makanan laut lebih mudah diserap daripada zat besi dari tumbuhan.",
+    "body": [
+      "Makanan mengandung dua bentuk zat besi. Zat besi heme berasal dari daging, makanan laut, dan unggas. Zat besi non-heme berasal dari tumbuhan seperti kacang-kacangan, lentil, tahu, dan sayuran hijau tua, serta dari makanan fortifikasi seperti beberapa sereal sarapan.",
+      "Tubuh Anda menyerap zat besi heme lebih mudah daripada zat besi non-heme. Makan daging, makanan laut, atau unggas bersama makanan nabati juga membantu Anda menyerap lebih banyak zat besi dari tumbuhan.",
+      "Jika Anda makan sedikit atau tidak makan daging, makanan nabati tetap dapat memberi Anda zat besi. Padukan dengan makanan kaya vitamin C untuk membantu penyerapan."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "Vitamin C membantu zat besi nabati",
+    "summary": "Padukan kacang, sayuran hijau, dan biji-bijian dengan buah atau sayur kaya vitamin C.",
+    "body": [
+      "Vitamin C membantu tubuh Anda menyerap zat besi non-heme, jenis yang terdapat pada makanan nabati dan sereal fortifikasi.",
+      "Paduan mudah: lentil dengan tomat, bayam dengan perasan jeruk nipis, sereal fortifikasi dengan stroberi atau jeruk, tahu tumis dengan paprika atau brokoli.",
+      "Jambu biji, buah jeruk, kiwi, stroberi, tomat, paprika, dan brokoli semuanya merupakan sumber vitamin C yang baik."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Teh, kopi, dan kalsium",
+    "summary": "Beberapa minuman dan makanan dapat mengurangi jumlah zat besi yang Anda serap dari suatu hidangan.",
+    "body": [
+      "Teh dan kopi mengandung polifenol, dan produk susu mengandung kalsium. Keduanya dapat mengurangi jumlah zat besi yang diserap tubuh Anda dari hidangan yang sama.",
+      "Anda tidak perlu berhenti mengonsumsinya. Banyak orang cukup minum teh atau kopi di antara waktu makan, bukan bersamaan dengan hidangan kaya zat besi.",
+      "Jika Anda minum suplemen kalsium, tanyakan kepada dokter atau apoteker tentang waktu terbaik untuk meminumnya."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "Berapa banyak zat besi yang dibutuhkan?",
+    "summary": "Kebutuhan harian bergantung pada usia, jenis kelamin, dan kehamilan.",
+    "body": [
+      "National Institutes of Health (AS) merekomendasikan jumlah zat besi harian berikut:",
+      "• Pria usia 19 tahun ke atas: 8 mg",
+      "• Wanita usia 19–50 tahun: 18 mg",
+      "• Wanita usia 51 tahun ke atas: 8 mg",
+      "• Selama kehamilan: 27 mg",
+      "• Selama menyusui (usia 19–50 tahun): 9 mg",
+      "• Remaja usia 14–18 tahun: 11 mg untuk laki-laki, 15 mg untuk perempuan",
+      "Orang yang tidak makan daging mungkin membutuhkan sekitar 1,8 kali jumlah ini, karena zat besi dari tumbuhan lebih sulit diserap.",
+      "Jangan minum suplemen zat besi kecuali direkomendasikan dokter Anda. Zat besi yang berlebihan dapat berbahaya, dan suplemen zat besi merupakan penyebab umum keracunan pada anak kecil, jadi simpan di tempat yang tidak terjangkau anak."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "Apa yang ditunjukkan hemoglobin dan feritin",
+    "summary": "Dua hasil tes darah yang umum, dalam bahasa sederhana.",
+    "body": [
+      "Hemoglobin adalah protein dalam sel darah merah yang membawa oksigen ke seluruh tubuh Anda.",
+      "Feritin adalah protein yang menyimpan zat besi. Tes feritin memberi gambaran seberapa banyak cadangan zat besi dalam tubuh Anda.",
+      "Rentang normal berbeda antar-laboratorium dan bergantung pada hal-hal seperti usia, jenis kelamin, dan kehamilan. Irovi tidak menilai angka Anda. Tanyakan kepada dokter apa arti hasil tersebut bagi Anda."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Kapan perlu bicara dengan dokter",
+    "summary": "Beberapa tanda sebaiknya diperiksakan, bukan ditebak.",
+    "body": [
+      "Menurut Organisasi Kesehatan Dunia (WHO), anemia dapat menyebabkan rasa lelah, lemas, pusing, dan sesak napas.",
+      "Bicarakan dengan dokter jika Anda sering merasa lelah atau sesak napas secara tidak biasa, jika menstruasi Anda berat, jika Anda hamil atau merencanakan kehamilan, atau sebelum mulai minum suplemen zat besi apa pun.",
+      "Tes darah adalah satu-satunya cara untuk mengetahui kadar zat besi Anda. Irovi membantu Anda mencatat makanan dan hasil tes. Irovi tidak dapat memberi tahu apakah Anda mengalami anemia."
+    ]
+  }
+]

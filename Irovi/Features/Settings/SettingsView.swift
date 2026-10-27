@@ -60,11 +60,11 @@ struct SettingsView: View {
                 }
 
                 Section {
-                    Button("Language") {
-                        if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
+                    NavigationLink {
+                        LanguageSettingsView()
+                    } label: {
+                        LabeledContent("Language", value: AppLanguage.current.nativeName)
                     }
-                } footer: {
-                    Text("Irovi follows your iPhone's language. You can pick a different one for Irovi in the Settings app.")
                 }
 
                 Section {

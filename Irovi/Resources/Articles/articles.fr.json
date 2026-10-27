@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Deux types de fer dans l’alimentation",
+    "summary": "Le fer de la viande et des produits de la mer est absorbé plus facilement que le fer des végétaux.",
+    "body": [
+      "L’alimentation contient deux formes de fer. Le fer héminique provient de la viande, des produits de la mer et de la volaille. Le fer non héminique provient des végétaux comme les haricots, les lentilles, le tofu et les légumes à feuilles vert foncé, ainsi que des aliments enrichis comme certaines céréales du petit-déjeuner.",
+      "Votre corps absorbe le fer héminique plus facilement que le fer non héminique. Manger de la viande, des produits de la mer ou de la volaille avec des végétaux vous aide aussi à absorber davantage le fer de ces végétaux.",
+      "Si vous mangez peu ou pas de viande, les végétaux peuvent tout de même vous apporter du fer. Associez-les à des aliments riches en vitamine C pour favoriser l’absorption."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "La vitamine C aide le fer végétal",
+    "summary": "Associez légumineuses, légumes verts et céréales à des fruits ou légumes riches en vitamine C.",
+    "body": [
+      "La vitamine C aide votre corps à absorber le fer non héminique, celui des végétaux et des céréales enrichies.",
+      "Associations faciles : lentilles et tomates, épinards avec un filet de citron vert, céréales enrichies avec des fraises ou une orange, tofu sauté aux poivrons ou au brocoli.",
+      "La goyave, les agrumes, le kiwi, les fraises, les tomates, les poivrons et le brocoli sont tous de bonnes sources de vitamine C."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Thé, café et calcium",
+    "summary": "Certaines boissons et certains aliments peuvent réduire la quantité de fer absorbée lors d’un repas.",
+    "body": [
+      "Le thé et le café contiennent des polyphénols, et les produits laitiers contiennent du calcium. Les deux peuvent réduire la quantité de fer que votre corps absorbe lors du même repas.",
+      "Inutile d’y renoncer. Beaucoup de personnes boivent simplement leur thé ou leur café entre les repas plutôt qu’avec un repas riche en fer.",
+      "Si vous prenez des compléments de calcium, demandez à votre médecin ou à votre pharmacien le meilleur moment pour les prendre."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "De combien de fer a-t-on besoin ?",
+    "summary": "Les besoins quotidiens dépendent de l’âge, du sexe et de la grossesse.",
+    "body": [
+      "Les National Institutes of Health américains recommandent ces apports quotidiens en fer :",
+      "• Hommes de 19 ans et plus : 8 mg",
+      "• Femmes de 19 à 50 ans : 18 mg",
+      "• Femmes de 51 ans et plus : 8 mg",
+      "• Pendant la grossesse : 27 mg",
+      "• Pendant l’allaitement (19–50 ans) : 9 mg",
+      "• Adolescents de 14 à 18 ans : 11 mg pour les garçons, 15 mg pour les filles",
+      "Les personnes qui ne mangent pas de viande peuvent avoir besoin d’environ 1,8 fois ces quantités, car le fer des végétaux est absorbé moins facilement.",
+      "Ne prenez pas de compléments de fer sauf si votre médecin vous les recommande. Trop de fer peut être nocif, et les compléments de fer sont une cause fréquente d’intoxication chez les jeunes enfants : gardez-les hors de leur portée."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "Ce que montrent l’hémoglobine et la ferritine",
+    "summary": "Deux résultats d’analyse courants, expliqués simplement.",
+    "body": [
+      "L’hémoglobine est la protéine des globules rouges qui transporte l’oxygène dans tout votre corps.",
+      "La ferritine est une protéine qui stocke le fer. Un dosage de la ferritine donne une idée de la quantité de fer que votre corps a en réserve.",
+      "Les valeurs normales varient selon les laboratoires et dépendent notamment de l’âge, du sexe et de la grossesse. Irovi ne juge pas vos valeurs. Demandez à votre médecin ce que vos résultats signifient pour vous."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Quand consulter un médecin",
+    "summary": "Certains signes méritent d’être vérifiés plutôt que devinés.",
+    "body": [
+      "Selon l’Organisation mondiale de la santé, l’anémie peut provoquer fatigue, faiblesse, vertiges et essoufflement.",
+      "Parlez-en à un médecin si vous ressentez souvent une fatigue inhabituelle ou un essoufflement, si vous avez des règles abondantes, si vous êtes enceinte ou prévoyez une grossesse, ou avant de commencer tout complément de fer.",
+      "Seule une analyse de sang permet de connaître votre taux de fer. Irovi vous aide à suivre votre alimentation et vos résultats. L’app ne peut pas vous dire si vous êtes anémique."
+    ]
+  }
+]

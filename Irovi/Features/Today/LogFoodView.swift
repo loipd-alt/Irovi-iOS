@@ -75,7 +75,7 @@ struct LogFoodView: View {
                 .padding(.vertical, Palette.Space.l)
             }
             .background(Palette.background)
-            .navigationTitle(fixedDate.map { $0.formatted(.dateTime.weekday(.wide).day().month(.wide)) } ?? String(localized: "Log food"))
+            .navigationTitle(fixedDate.map { $0.formatted(.dateTime.weekday(.wide).day().month(.wide).locale(AppLanguage.current.locale)) } ?? localized("Log food"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() } }

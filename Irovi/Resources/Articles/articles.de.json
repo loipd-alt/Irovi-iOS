@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Zwei Arten von Eisen im Essen",
+    "summary": "Eisen aus Fleisch und Meeresfrüchten wird leichter aufgenommen als Eisen aus Pflanzen.",
+    "body": [
+      "Lebensmittel enthalten Eisen in zwei Formen. Häm-Eisen stammt aus Fleisch, Meeresfrüchten und Geflügel. Nicht-Häm-Eisen stammt aus Pflanzen wie Bohnen, Linsen, Tofu und dunklem Blattgemüse sowie aus angereicherten Lebensmitteln wie manchen Frühstückscerealien.",
+      "Dein Körper nimmt Häm-Eisen leichter auf als Nicht-Häm-Eisen. Wenn du Fleisch, Meeresfrüchte oder Geflügel zusammen mit pflanzlichen Lebensmitteln isst, nimmst du auch mehr Eisen aus den Pflanzen auf.",
+      "Wenn du wenig oder kein Fleisch isst, können dir pflanzliche Lebensmittel trotzdem Eisen liefern. Kombiniere sie mit Vitamin-C-reichen Lebensmitteln, um die Aufnahme zu unterstützen."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "Vitamin C hilft bei Pflanzeneisen",
+    "summary": "Kombiniere Bohnen, Blattgemüse und Getreide mit Obst oder Gemüse, das reich an Vitamin C ist.",
+    "body": [
+      "Vitamin C hilft deinem Körper, Nicht-Häm-Eisen aufzunehmen – die Form, die in pflanzlichen Lebensmitteln und angereicherten Cerealien steckt.",
+      "Einfache Kombinationen: Linsen mit Tomaten, Spinat mit einem Spritzer Limette, angereicherte Cerealien mit Erdbeeren oder einer Orange, Tofu mit Paprika oder Brokkoli aus dem Wok.",
+      "Guaven, Zitrusfrüchte, Kiwis, Erdbeeren, Tomaten, Paprika und Brokkoli sind gute Vitamin-C-Quellen."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Tee, Kaffee und Kalzium",
+    "summary": "Manche Getränke und Lebensmittel können verringern, wie viel Eisen du aus einer Mahlzeit aufnimmst.",
+    "body": [
+      "Tee und Kaffee enthalten Polyphenole, Milchprodukte enthalten Kalzium. Beides kann verringern, wie viel Eisen dein Körper aus derselben Mahlzeit aufnimmt.",
+      "Du musst nicht darauf verzichten. Viele trinken Tee oder Kaffee einfach zwischen den Mahlzeiten statt zu einer eisenreichen Mahlzeit.",
+      "Wenn du Kalziumpräparate einnimmst, frag deinen Arzt oder Apotheker nach dem besten Zeitpunkt für die Einnahme."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "Wie viel Eisen braucht man?",
+    "summary": "Der Tagesbedarf hängt von Alter, Geschlecht und Schwangerschaft ab.",
+    "body": [
+      "Die US National Institutes of Health empfehlen diese täglichen Eisenmengen:",
+      "• Männer ab 19: 8 mg",
+      "• Frauen 19–50: 18 mg",
+      "• Frauen ab 51: 8 mg",
+      "• In der Schwangerschaft: 27 mg",
+      "• In der Stillzeit (19–50 Jahre): 9 mg",
+      "• Jugendliche 14–18: 11 mg für Jungen, 15 mg für Mädchen",
+      "Wer kein Fleisch isst, braucht eventuell etwa das 1,8-Fache dieser Mengen, weil Eisen aus Pflanzen schlechter aufgenommen wird.",
+      "Nimm keine Eisenpräparate, außer dein Arzt empfiehlt sie. Zu viel Eisen kann schaden, und Eisenpräparate sind eine häufige Ursache für Vergiftungen bei kleinen Kindern – bewahre sie daher außer Reichweite auf."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "Was Hämoglobin und Ferritin zeigen",
+    "summary": "Zwei häufige Blutwerte, einfach erklärt.",
+    "body": [
+      "Hämoglobin ist das Protein in den roten Blutkörperchen, das Sauerstoff durch deinen Körper transportiert.",
+      "Ferritin ist ein Protein, das Eisen speichert. Ein Ferritintest gibt einen Eindruck davon, wie viel Eisen dein Körper in Reserve hat.",
+      "Normalbereiche unterscheiden sich von Labor zu Labor und hängen etwa von Alter, Geschlecht und Schwangerschaft ab. Irovi bewertet deine Werte nicht. Frag deinen Arzt, was deine Ergebnisse für dich bedeuten."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Wann du zum Arzt gehen solltest",
+    "summary": "Manche Anzeichen solltest du abklären lassen, statt zu raten.",
+    "body": [
+      "Laut Weltgesundheitsorganisation kann Anämie Müdigkeit, Schwäche, Schwindel und Kurzatmigkeit verursachen.",
+      "Sprich mit einem Arzt, wenn du dich oft ungewöhnlich müde oder kurzatmig fühlst, wenn du starke Regelblutungen hast, wenn du schwanger bist oder eine Schwangerschaft planst, oder bevor du mit einem Eisenpräparat beginnst.",
+      "Nur ein Bluttest kann deine Eisenwerte zeigen. Irovi hilft dir, dein Essen und deine Ergebnisse festzuhalten. Es kann dir nicht sagen, ob du eine Anämie hast."
+    ]
+  }
+]

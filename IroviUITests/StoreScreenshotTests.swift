@@ -13,26 +13,33 @@ final class StoreScreenshotTests: XCTestCase {
         capture("1-home", launch(tab: "today"))
 
         let home = launch(tab: "today")
+        XCTAssertTrue(home.buttons["Log food"].firstMatch.waitForExistence(timeout: 5))
         home.buttons["Log food"].firstMatch.tap()
-        _ = home.buttons["Shellfish & fish"].waitForExistence(timeout: 5)
+        XCTAssertTrue(home.buttons["Shellfish & fish"].waitForExistence(timeout: 5), "Log food sheet did not open")
         capture("2-log", home)
 
         capture("3-blood", launch(tab: "blood"))
 
         let history = launch(tab: "today")
+        XCTAssertTrue(history.buttons["History"].firstMatch.waitForExistence(timeout: 5))
         history.buttons["History"].firstMatch.tap()
-        _ = history.navigationBars["History"].waitForExistence(timeout: 5)
+        XCTAssertTrue(history.navigationBars["History"].waitForExistence(timeout: 5), "History did not open")
         capture("4-history", history)
 
         capture("5-learn", launch(tab: "learn"))
-        capture("6-welcome", launch(tab: "today", onboarded: false))
+        // Welcome: past the language step, on the first intro page.
+        let welcome = launch(tab: "today", onboarded: false)
+        XCTAssertTrue(welcome.buttons["Continue"].waitForExistence(timeout: 5))
+        welcome.buttons["Continue"].tap()
+        XCTAssertTrue(welcome.buttons["Next"].waitForExistence(timeout: 5), "Intro page did not open")
+        capture("6-welcome", welcome)
     }
 
     private func launch(tab: String, onboarded: Bool = true) -> XCUIApplication {
         let app = XCUIApplication()
         app.launchArguments = [
             "-onboarded", onboarded ? "YES" : "NO", "-IroviDemoData", "YES", "-selectedTab", tab,
-            "-AppleLanguages", "(en)", "-AppleLocale", "en_US",
+            "-AppleLanguages", "(en)", "-AppleLocale", "en_US", "-appLanguage", "en", "-IroviNoSplash", "YES",
         ]
         app.launch()
         return app

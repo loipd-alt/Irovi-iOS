@@ -1,0 +1,68 @@
+[
+  {
+    "id": "two-kinds",
+    "title": "Two kinds of iron in food",
+    "summary": "Iron from meat and seafood is absorbed more easily than iron from plants.",
+    "body": [
+      "Food contains two forms of iron. Heme iron comes from meat, seafood and poultry. Non-heme iron comes from plants such as beans, lentils, tofu and dark leafy greens, and from fortified foods like some breakfast cereals.",
+      "Your body absorbs heme iron more easily than non-heme iron. Eating meat, seafood or poultry together with plant foods also helps you absorb more of the iron from the plants.",
+      "If you eat little or no meat, plant foods can still give you iron. Pair them with foods rich in vitamin C to help absorption."
+    ]
+  },
+  {
+    "id": "vitamin-c",
+    "title": "Vitamin C helps plant iron",
+    "summary": "Pair beans, greens and grains with fruit or vegetables rich in vitamin C.",
+    "body": [
+      "Vitamin C helps your body absorb non-heme iron, the kind found in plant foods and fortified cereals.",
+      "Easy pairs: lentils with tomatoes, spinach with a squeeze of lime, fortified cereal with strawberries or an orange, tofu stir-fried with bell peppers or broccoli.",
+      "Guava, citrus fruit, kiwi, strawberries, tomatoes, peppers and broccoli are all good sources of vitamin C."
+    ]
+  },
+  {
+    "id": "tea-coffee",
+    "title": "Tea, coffee and calcium",
+    "summary": "Some drinks and foods can lower how much iron you absorb from a meal.",
+    "body": [
+      "Tea and coffee contain polyphenols, and dairy foods contain calcium. Both can reduce how much iron your body absorbs from the same meal.",
+      "You don't need to give them up. Many people simply have tea or coffee between meals rather than with an iron-rich meal.",
+      "If you take calcium supplements, ask your doctor or pharmacist about the best time to take them."
+    ]
+  },
+  {
+    "id": "how-much",
+    "title": "How much iron do people need?",
+    "summary": "Daily needs depend on age, sex and pregnancy.",
+    "body": [
+      "The US National Institutes of Health recommends these daily amounts of iron:",
+      "• Men 19 and older: 8 mg",
+      "• Women 19–50: 18 mg",
+      "• Women 51 and older: 8 mg",
+      "• During pregnancy: 27 mg",
+      "• While breastfeeding (ages 19–50): 9 mg",
+      "• Teens 14–18: 11 mg for boys, 15 mg for girls",
+      "People who eat no meat may need about 1.8 times these amounts, because iron from plants is absorbed less easily.",
+      "Don't take iron supplements unless your doctor recommends them. Too much iron can be harmful, and iron supplements are a common cause of poisoning in young children, so keep them out of reach."
+    ]
+  },
+  {
+    "id": "hb-ferritin",
+    "title": "What hemoglobin and ferritin show",
+    "summary": "Two common blood test results, in plain words.",
+    "body": [
+      "Hemoglobin is the protein in red blood cells that carries oxygen around your body.",
+      "Ferritin is a protein that stores iron. A ferritin test gives an idea of how much iron your body has in reserve.",
+      "Healthy ranges differ between labs and depend on things like age, sex and pregnancy. Irovi doesn't judge your numbers. Ask your doctor what your results mean for you."
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "When to talk to a doctor",
+    "summary": "Some signs are worth checking rather than guessing.",
+    "body": [
+      "According to the World Health Organization, anaemia can cause tiredness, weakness, dizziness and shortness of breath.",
+      "Talk to a doctor if you often feel unusually tired or short of breath, if you have heavy periods, if you are pregnant or planning a pregnancy, or before starting any iron supplement.",
+      "A blood test is the only way to know your iron levels. Irovi helps you keep track of your food and results. It can't tell you whether you have anaemia."
+    ]
+  }
+]

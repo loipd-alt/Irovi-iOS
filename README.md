@@ -27,8 +27,8 @@ xcodebuild -project Irovi.xcodeproj -scheme Irovi \
 | All colors, radii, spacing | `Irovi/DesignSystem/Palette.swift` |
 | Data models (SwiftData) | `Irovi/Model/Records.swift` |
 | Food groups and habits | `Irovi/Model/Foods.swift` |
-| Learn articles (EN + VI) | `Irovi/Features/Learn/Article.swift` |
-| Vietnamese UI strings | `scripts/vi_strings.py` → `Irovi/Resources/Localizable.xcstrings` |
+| UI strings (8 languages) | `scripts/strings/<code>.json` → `scripts/build_strings.py` → `Irovi/Resources/Localizable.xcstrings` |
+| Learn articles per language | `Irovi/Resources/Articles/articles.<code>.json` |
 | App icon source | `scripts/app-icon.svg` |
 | Widget (Home + Lock Screen) | `IroviWidget/` — reads `WidgetSnapshot` from App Group `group.com.irovi.app` |
 | App ↔ widget shared code | `Irovi/Shared/` (+ `Foods.swift`, `Progress.swift`, `Palette.swift`) |
@@ -37,7 +37,7 @@ xcodebuild -project Irovi.xcodeproj -scheme Irovi \
 
 | Script | Does |
 |---|---|
-| `python3 scripts/vi_strings.py` | Rebuilds the string catalog after a build; fails if a new string has no Vietnamese |
+| `python3 scripts/build_strings.py` | Rebuilds the string catalog after a build; fails if any language misses a string or breaks a placeholder |
 | `./scripts/store_screenshots.sh` | Captures and composes App Store screenshots (needs the "iPhone 17 Pro Max" simulator) |
 | `python3 scripts/check_aso.py` | Checks App Store text lengths in `docs/ASO.md` |
 
