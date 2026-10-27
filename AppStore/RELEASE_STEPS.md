@@ -8,6 +8,7 @@ Làm lần lượt từ trên xuống. Nội dung để dán nằm trong `docs/A
 - Chỉ iPhone · Ngôn ngữ trang store: English (U.S.)
 - Thu thập dữ liệu: **Không** (Data Not Collected)
 - App **không** dùng HealthKit, camera, vị trí. Chỉ xin quyền thông báo khi người dùng bật nhắc.
+- Có **widget** (`com.irovi.app.widget`), chia sẻ dữ liệu với app qua App Group `group.com.irovi.app`.
 
 ---
 
@@ -17,12 +18,15 @@ Làm lần lượt từ trên xuống. Nội dung để dán nằm trong `docs/A
 - [ ] Xcode › Settings › Accounts: đăng nhập tài khoản Developer.
 - [ ] **Bản ghi Cuffnote cũ:** để nguyên, **không nộp lại**. Irovi là app khác, tạo bản ghi mới.
 
-## 1. Tạo App ID
+## 1. Tạo App Group và App ID
 
-[developer.apple.com](https://developer.apple.com/account/resources/identifiers/list) › Identifiers › **+** › App IDs › App:
-- Description: `Irovi`
-- Bundle ID (Explicit): `com.irovi.app`
-- Capabilities: **không cần tích gì** (thông báo trên máy không cần capability)
+Cách nhanh: trong Xcode, target **Irovi** và **IroviWidget** › Signing & Capabilities, chọn Team; để *Automatically manage signing* thì Xcode tự đăng ký các mục dưới. Nếu muốn làm tay trên [developer.apple.com](https://developer.apple.com/account/resources/identifiers/list) › Identifiers:
+
+1. **+** › **App Groups** › Identifier: `group.com.irovi.app`
+2. **+** › App IDs › App: Description `Irovi`, Bundle ID `com.irovi.app`, tích **App Groups** › Configure › chọn `group.com.irovi.app`
+3. **+** › App IDs › App: Description `Irovi Widget`, Bundle ID `com.irovi.app.widget`, tích **App Groups** › chọn `group.com.irovi.app`
+
+Thiếu App Group thì widget hiện trống (không lỗi app, nhưng nên làm đúng).
 
 ## 2. Tạo app
 
@@ -47,7 +51,7 @@ Lấy **Apple ID** (dãy số) ở General › App Information, điền vào `Co
 
 ## 6. Trang phiên bản 1.0
 
-- **Ảnh:** tải 5 ảnh `01` → `05` từ `AppStore/screenshots/en/` (ô 6.9") **hoặc** `AppStore/screenshots/en-6.5/` (ô 6.5"). Một bộ là đủ.
+- **Ảnh:** tải 6 ảnh `01` → `06` từ `AppStore/screenshots/en/` (ô 6.9") **hoặc** `AppStore/screenshots/en-6.5/` (ô 6.5"). Một bộ là đủ.
 - **Promotional Text, Description, Keywords:** chép từ `docs/ASO.md`.
 - Support URL, Copyright, Version `1.0.0`.
 
@@ -60,7 +64,7 @@ Lấy **Apple ID** (dãy số) ở General › App Information, điền vào `Co
 ## 8. Build và upload
 
 1. `xcodegen generate` (nếu vừa sửa `project.yml`), mở `Irovi.xcodeproj`.
-2. Target **Irovi** › Signing & Capabilities: chọn đúng Team.
+2. Target **Irovi** và **IroviWidget** › Signing & Capabilities: chọn đúng Team, thấy mục **App Groups** có `group.com.irovi.app`.
 3. Thiết bị **Any iOS Device (arm64)** › **Product › Archive** › **Validate App** › **Distribute App** › App Store Connect › Upload.
 4. Chờ 10–30 phút để Apple xử lý build.
 
@@ -72,7 +76,8 @@ Trang 1.0 › chọn build › **Add for Review** › **Submit to App Review**.
 
 ## Kiểm tra trước khi bấm Submit
 
-- [ ] Chạy thử trên iPhone thật hoặc simulator, và trên **iPad** (Apple hay duyệt trên iPad): mở app, qua màn chào, tích món, thêm kết quả máu, bật nhắc, đọc bài.
+- [ ] Chạy thử trên iPhone thật hoặc simulator, và trên **iPad** (Apple hay duyệt trên iPad): mở app, qua màn chào, tích món, thêm kết quả máu, bật nhắc, đọc bài, mở Lịch sử.
+- [ ] Trên iPhone thật: thêm widget Irovi ra màn hình chính, kiểm tra số liệu khớp app và bấm vào thì mở màn Ghi món ăn.
 - [ ] Privacy Policy URL và Support URL mở được.
 - [ ] Ảnh store đúng thư mục, đúng thứ tự.
 - [ ] Mô tả không thêm tính năng app chưa có.

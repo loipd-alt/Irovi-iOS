@@ -59,7 +59,7 @@ struct MedicineEditorItem: Identifiable {
     let medicine: Medicine?
 }
 
-private struct MedicineEditor: View {
+struct MedicineEditor: View {
     let existing: Medicine?
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss

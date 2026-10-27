@@ -21,6 +21,26 @@
         }
       }
     },
+    "%lld of 7 days on goal": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/7 ngày đạt mục tiêu"
+          }
+        }
+      }
+    },
+    "A medicine your doctor prescribed": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thuốc bác sĩ đã kê cho bạn"
+          }
+        }
+      }
+    },
     "A simple daily companion for people who want more iron in their diet.": {
       "localizations": {
         "vi": {
@@ -37,6 +57,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Giới thiệu"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm"
           }
         }
       }
@@ -101,6 +131,16 @@
         }
       }
     },
+    "Add your hemoglobin and ferritin to see them here.": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm hemoglobin và ferritin để xem ở đây."
+          }
+        }
+      }
+    },
     "All results": {
       "localizations": {
         "vi": {
@@ -157,6 +197,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Máu"
+          }
+        }
+      }
+    },
+    "Blood results": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ số máu"
+          }
+        }
+      }
+    },
+    "Blood test result": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kết quả xét nghiệm"
           }
         }
       }
@@ -257,6 +317,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ngày"
+          }
+        }
+      }
+    },
+    "Days on goal": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngày đạt mục tiêu"
           }
         }
       }
@@ -471,12 +541,52 @@
         }
       }
     },
+    "Goal reached": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đạt mục tiêu"
+          }
+        }
+      }
+    },
     "Goal reached today": {
       "localizations": {
         "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Đã đạt mục tiêu hôm nay"
+          }
+        }
+      }
+    },
+    "Good afternoon": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chào buổi chiều"
+          }
+        }
+      }
+    },
+    "Good evening": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chào buổi tối"
+          }
+        }
+      }
+    },
+    "Good morning": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chào buổi sáng"
           }
         }
       }
@@ -521,6 +631,36 @@
         }
       }
     },
+    "Hemoglobin and ferritin": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hemoglobin và ferritin"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lịch sử"
+          }
+        }
+      }
+    },
+    "Home": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổng quan"
+          }
+        }
+      }
+    },
     "How many iron-rich food groups would you like on your plate each day?": {
       "localizations": {
         "vi": {
@@ -541,6 +681,36 @@
         }
       }
     },
+    "Index": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thứ tự"
+          }
+        }
+      }
+    },
+    "Iron plate": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bữa ăn đủ sắt"
+          }
+        }
+      }
+    },
+    "Iron-rich food": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Món giàu sắt"
+          }
+        }
+      }
+    },
     "Iron-rich food reminder": {
       "localizations": {
         "vi": {
@@ -551,12 +721,12 @@
         }
       }
     },
-    "Iron-rich foods today": {
+    "Iron-rich foods": {
       "localizations": {
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Thực phẩm giàu sắt hôm nay"
+            "value": "Thực phẩm giàu sắt"
           }
         }
       }
@@ -681,6 +851,36 @@
         }
       }
     },
+    "Log food": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi món ăn"
+          }
+        }
+      }
+    },
+    "Medicine reminder": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhắc uống thuốc"
+          }
+        }
+      }
+    },
+    "Most logged": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ăn nhiều nhất"
+          }
+        }
+      }
+    },
     "My medicines": {
       "localizations": {
         "vi": {
@@ -731,6 +931,36 @@
         }
       }
     },
+    "Next month": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tháng sau"
+          }
+        }
+      }
+    },
+    "No blood results yet": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có kết quả xét nghiệm"
+          }
+        }
+      }
+    },
+    "No data": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có"
+          }
+        }
+      }
+    },
     "No medicines": {
       "localizations": {
         "vi": {
@@ -767,6 +997,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ghi chú"
+          }
+        }
+      }
+    },
+    "Nothing logged yet": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa ghi món nào"
           }
         }
       }
@@ -867,6 +1107,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gia cầm & trứng"
+          }
+        }
+      }
+    },
+    "Previous month": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tháng trước"
           }
         }
       }
@@ -991,6 +1241,16 @@
         }
       }
     },
+    "See all": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem tất cả"
+          }
+        }
+      }
+    },
     "Settings": {
       "localizations": {
         "vi": {
@@ -1017,6 +1277,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bài đọc ngắn về sắt và sức khỏe máu, có ghi nguồn."
+          }
+        }
+      }
+    },
+    "Some food logged": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có ghi món"
           }
         }
       }
@@ -1101,12 +1371,32 @@
         }
       }
     },
+    "This week": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuần này"
+          }
+        }
+      }
+    },
     "Tick the iron-rich foods you ate today": {
       "localizations": {
         "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Đánh dấu món giàu sắt bạn đã ăn hôm nay"
+          }
+        }
+      }
+    },
+    "Tick what you ate today": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đánh dấu món bạn đã ăn hôm nay"
           }
         }
       }
@@ -1137,6 +1427,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hôm nay"
+          }
+        }
+      }
+    },
+    "Today's iron plate": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bữa ăn đủ sắt hôm nay"
+          }
+        }
+      }
+    },
+    "Today's medicines": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thuốc hôm nay"
+          }
+        }
+      }
+    },
+    "Today's progress and your streak.": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiến độ hôm nay và chuỗi ngày của bạn."
           }
         }
       }
@@ -1201,6 +1521,26 @@
         }
       }
     },
+    "What would you like to add?": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn muốn thêm gì?"
+          }
+        }
+      }
+    },
+    "Yesterday": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hôm qua"
+          }
+        }
+      }
+    },
     "You can change these any time in Settings.": {
       "localizations": {
         "vi": {
@@ -1261,22 +1601,22 @@
         }
       }
     },
-    "Your medicines": {
-      "localizations": {
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Thuốc của bạn"
-          }
-        }
-      }
-    },
     "Your privacy": {
       "localizations": {
         "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Quyền riêng tư của bạn"
+          }
+        }
+      }
+    },
+    "food groups": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nhóm thực phẩm"
           }
         }
       }

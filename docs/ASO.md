@@ -31,11 +31,20 @@ Build an iron-rich plate every day, keep your hemoglobin and ferritin results in
 ```text
 Irovi is a simple daily companion for people who want more iron in their diet.
 
-TODAY'S PLATE
-Tick the iron-rich food groups you ate today: red meat, shellfish and fish, poultry and eggs, beans and tofu, dark leafy greens, and fortified grains. Set a daily goal and keep a streak going.
+YOUR DAY AT A GLANCE
+See today's iron plate, your week and your latest blood results on one screen.
+
+LOG IN A FEW TAPS
+Tap + to log the iron-rich food groups you ate, today or yesterday: red meat, shellfish and fish, poultry and eggs, beans and tofu, dark leafy greens, and fortified grains. Set a daily goal and keep a streak going.
 
 HELP YOUR BODY ABSORB IT
-Two simple habits on your checklist: vitamin C with a meal, and tea or coffee between meals.
+Two simple habits to tick off: vitamin C with a meal, and tea or coffee between meals.
+
+LOOK BACK
+A month calendar shows which days reached your goal. Tap any past day to see or edit what you logged.
+
+ON YOUR HOME SCREEN
+Add the Irovi widget to your Home Screen or Lock Screen to see today's progress and your streak. Tap it to log food.
 
 YOUR BLOOD RESULTS
 Type in the hemoglobin and ferritin numbers from your lab report and see them on a chart over time. Add a target your doctor gave you and plan your next blood test.
@@ -85,11 +94,20 @@ Mỗi ngày một bữa ăn đủ sắt, lưu kết quả hemoglobin và ferriti
 ```text
 Irovi là người bạn đồng hành mỗi ngày cho ai muốn bổ sung thêm sắt qua bữa ăn.
 
-BỮA ĂN HÔM NAY
-Đánh dấu các nhóm thực phẩm giàu sắt bạn đã ăn: thịt đỏ, hải sản và cá, gia cầm và trứng, đậu và đậu phụ, rau lá xanh đậm, ngũ cốc bổ sung sắt. Đặt mục tiêu mỗi ngày và giữ chuỗi ngày liên tiếp.
+TỔNG QUAN MỘT MÀN HÌNH
+Xem bữa ăn đủ sắt hôm nay, cả tuần và kết quả xét nghiệm mới nhất trên một màn hình.
+
+GHI NHANH VÀI CHẠM
+Bấm + để ghi các nhóm thực phẩm giàu sắt đã ăn, hôm nay hoặc hôm qua: thịt đỏ, hải sản và cá, gia cầm và trứng, đậu và đậu phụ, rau lá xanh đậm, ngũ cốc bổ sung sắt. Đặt mục tiêu mỗi ngày và giữ chuỗi ngày liên tiếp.
 
 GIÚP CƠ THỂ HẤP THU
-Hai thói quen đơn giản trong checklist: ăn kèm vitamin C, và uống trà, cà phê giữa các bữa.
+Hai thói quen đơn giản để đánh dấu: ăn kèm vitamin C, và uống trà, cà phê giữa các bữa.
+
+XEM LẠI
+Lịch tháng cho thấy ngày nào đạt mục tiêu. Bấm vào một ngày đã qua để xem hoặc sửa món đã ghi.
+
+NGAY TRÊN MÀN HÌNH CHÍNH
+Thêm widget Irovi ra màn hình chính hoặc màn hình khoá để xem tiến độ hôm nay và chuỗi ngày. Bấm vào để ghi món.
 
 CHỈ SỐ MÁU CỦA BẠN
 Nhập chỉ số hemoglobin và ferritin trong phiếu xét nghiệm, xem biểu đồ theo thời gian. Thêm mục tiêu bác sĩ đưa và hẹn lần xét nghiệm tới.
@@ -117,7 +135,9 @@ Nếu nộp bằng tài khoản **cá nhân**, xoá dòng "Published by…".
 Irovi is a wellness diary for people who want more iron in their diet. It does not measure anything with the device's sensors, it does not diagnose, and it never recommends medicines, supplements or doses.
 
 • No account or sign-in. Launch the app, finish the two-step welcome, and every feature is available.
-• Today tab: tick iron-rich food groups and two absorption habits; the ring and streak update.
+• Home tab: an overview of today, the week and the latest blood results. Tap "Log food" or the + button to tick iron-rich food groups and two absorption habits.
+• History (Home → This week → History): month calendar of logged days; tap a past day to edit it.
+• Widget (small, medium, Lock Screen): today's progress and streak from a summary the app writes to its App Group. Tapping it opens the food log.
 • Blood tab: tap + to add a hemoglobin and/or ferritin result typed from a lab report; values are shown on a chart without any "low/normal/high" judgement. "Your doctor's target" is optional and only stores a number the user enters.
 • Medicines (Settings → My medicines) are entered by the user for their own reminders only.
 • Reminders are local notifications. Notification permission is requested only when the user turns a reminder on.

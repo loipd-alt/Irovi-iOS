@@ -10,15 +10,22 @@ final class StoreScreenshotTests: XCTestCase {
     }
 
     func testCaptureStoreScreens() {
-        capture("1-today", launch(tab: "today"))
-        capture("2-blood", launch(tab: "blood"))
+        capture("1-home", launch(tab: "today"))
 
-        let today = launch(tab: "today")
-        today.swipeUp()
-        capture("3-absorb", today)
+        let home = launch(tab: "today")
+        home.buttons["Log food"].firstMatch.tap()
+        _ = home.buttons["Shellfish & fish"].waitForExistence(timeout: 5)
+        capture("2-log", home)
 
-        capture("4-learn", launch(tab: "learn"))
-        capture("5-welcome", launch(tab: "today", onboarded: false))
+        capture("3-blood", launch(tab: "blood"))
+
+        let history = launch(tab: "today")
+        history.buttons["History"].firstMatch.tap()
+        _ = history.navigationBars["History"].waitForExistence(timeout: 5)
+        capture("4-history", history)
+
+        capture("5-learn", launch(tab: "learn"))
+        capture("6-welcome", launch(tab: "today", onboarded: false))
     }
 
     private func launch(tab: String, onboarded: Bool = true) -> XCUIApplication {

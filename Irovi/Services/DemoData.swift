@@ -36,6 +36,7 @@ enum DemoData {
             context.insert(LabResult(date: date, hemoglobin: hb, ferritin: ferritin))
         }
         try? context.save()
+        WidgetSync.refresh(context)
     }
 }
 #endif

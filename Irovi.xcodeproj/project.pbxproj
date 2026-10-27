@@ -8,29 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		14D4D9E899AA612243F8F91A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B33698322E711E891DD46E /* OnboardingView.swift */; };
+		14E2B8620F9B7B7879EE0027 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D283930A6286FFB48EF30 /* DayKey.swift */; };
 		17C0B4B3FD01880632803306 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FA43379E6F025ECA8F294 /* SettingsView.swift */; };
 		1ABDEA6ED8780EDC4F1A3ED9 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */; };
+		1BBA8FD57903BEE9324C0E43 /* WidgetSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D63B9A77098AA9FA73460 /* WidgetSync.swift */; };
 		1E6D5EC1FFCC8495E2C7799D /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC678F6FC482871869CBB6E /* LearnView.swift */; };
 		218836F9D629D00C9044671D /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496A9528205DDD58C06A3B7 /* Progress.swift */; };
+		24DFF55D44A7E43A25976D63 /* IroviWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C20C087DDDC3BE57EB3D6B3 /* IroviWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		389B3B07D45811CABEC2CBE3 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BEC7814119FB00ABBBE6 /* Foods.swift */; };
+		39E1CEB99ADAEA937617DAE3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81D08FAACDC6F2A5B45295 /* HistoryView.swift */; };
+		41DFCB02FB4FE9050FA63C47 /* PlateWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC3E21C15341A767EF5FBF /* PlateWidgetView.swift */; };
+		497728D220BB1AA8AE1B0DFB /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6256FA1006749A80844741B1 /* Localizable.xcstrings */; };
 		4ECAD8931758CDD2D5780A70 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */; };
+		51BCE0B93E1CCB4CF72A2F3A /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BEC7814119FB00ABBBE6 /* Foods.swift */; };
 		53F4940D9E0DB0DE0982BFB1 /* CoreFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16AB594981AF380EF87BAD /* CoreFlowTests.swift */; };
+		55B1AAD2FA8730FBBF72FE33 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D283930A6286FFB48EF30 /* DayKey.swift */; };
 		6178CDBED84115EBB5E8443C /* MedicinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFAD86E2F3D2E9C57458D9 /* MedicinesView.swift */; };
 		708DF70E37B692491E709F45 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6256FA1006749A80844741B1 /* Localizable.xcstrings */; };
+		7399E0FA4CA50699A9B6C560 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A5DF3F3364ADB3459679A /* WidgetSnapshot.swift */; };
 		8093733C0CAD36F48D4054D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F416D0DFB46E8AC68E92D2 /* Assets.xcassets */; };
+		81F9E74B959D929B4F6EBC8C /* LogFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06D82FCCDA32AE7F61AF19 /* LogFoodView.swift */; };
+		93EC63C6735DDCA0236FE319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834450BE9941F2F5A41666A /* HomeView.swift */; };
 		9A29D9C6DF6C4683A83EC677 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0EDAAC45E97F8356E53A4 /* Article.swift */; };
 		A1B268560AEB068AA6BF2688 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9735CBC20E509668C1DA5 /* Reminders.swift */; };
+		A430847B21E4E2FE352893BF /* PlateWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC3E21C15341A767EF5FBF /* PlateWidgetView.swift */; };
+		A5ED9B46746DA6A4B0C296F4 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A5DF3F3364ADB3459679A /* WidgetSnapshot.swift */; };
 		A6CF7FF69F213900DB062E64 /* BloodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D8AC5C7B68F8811929E5B /* BloodView.swift */; };
+		A939F0011443BC1C53BB4E3F /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB335D9546FCF0EEE9E63B4 /* Palette.swift */; };
 		B73D309C68C41E4FAFE62ECE /* LabResultEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F01A8CD9D66B370E84986 /* LabResultEditor.swift */; };
 		BA75A71F5172EDD31BD5331B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328BCEE925682B378AF51E0 /* RootView.swift */; };
 		BC3D9A0F18F36C08CE72DD7D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727B745716C70F68443E799 /* Components.swift */; };
-		BF85F19D5E47C1DB09710BB0 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F670E8C0491C48AB78D3B48 /* TodayView.swift */; };
 		C1102DC89A0369C43ACEAD32 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C370FF6621B64710444064C /* Export.swift */; };
+		CABB865513F7B85FAAA49FED /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496A9528205DDD58C06A3B7 /* Progress.swift */; };
+		D5B2953332A038EFDF5A03B0 /* IroviWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E18F98C6BE313942E44F1 /* IroviWidget.swift */; };
 		D8DC159C0A666D3571929F0B /* IroviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2971146F7F81E110B57BF /* IroviApp.swift */; };
+		DAD3DDB45C837B7AEC2F4856 /* WidgetRenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5372D3CA9C50AA99CEEEEE70 /* WidgetRenderTests.swift */; };
 		DE7011C0CD34EA79E65A8798 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB335D9546FCF0EEE9E63B4 /* Palette.swift */; };
 		E4D50D1B50F3F3F66CC366E9 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58751422B4410EC0F19B4C8E /* Records.swift */; };
 		F7FD7FFC961038FF2CDCEBC8 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31017578B625D2ECD0EA29D /* CoreTests.swift */; };
 		FA802CC705E49EAFB37B5363 /* StoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F62A2D5CF6EA0F12D4BA2 /* StoreScreenshotTests.swift */; };
+		FF03AD02BE1455B3F621AC5F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F1B2F4F3D7D54BA7667B0286 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,29 +65,61 @@
 			remoteGlobalIDString = 25A6F854701231EC488C4932;
 			remoteInfo = Irovi;
 		};
+		864896236DA8395AC4E27F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9ABA8C7F666C4F28B9A143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7462D6EC64B355BD9329E588;
+			remoteInfo = IroviWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F81A43B8DFE4331C583D9D3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				24DFF55D44A7E43A25976D63 /* IroviWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C6F62A2D5CF6EA0F12D4BA2 /* StoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreenshotTests.swift; sourceTree = "<group>"; };
-		0F670E8C0491C48AB78D3B48 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		1944EA619A0F6050ADB17E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		19E2971146F7F81E110B57BF /* IroviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IroviApp.swift; sourceTree = "<group>"; };
 		1FEFAD86E2F3D2E9C57458D9 /* MedicinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesView.swift; sourceTree = "<group>"; };
 		2328BCEE925682B378AF51E0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		24217E760BD154B2E544DCB8 /* IroviTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IroviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2834450BE9941F2F5A41666A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		368F01A8CD9D66B370E84986 /* LabResultEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabResultEditor.swift; sourceTree = "<group>"; };
 		3C4FA43379E6F025ECA8F294 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
 		512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5372D3CA9C50AA99CEEEEE70 /* WidgetRenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRenderTests.swift; sourceTree = "<group>"; };
 		58751422B4410EC0F19B4C8E /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		5C370FF6621B64710444064C /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		5D9A5DF3F3364ADB3459679A /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		5F06D82FCCDA32AE7F61AF19 /* LogFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFoodView.swift; sourceTree = "<group>"; };
+		61C709034D78ABC770142ED9 /* Irovi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Irovi.entitlements; sourceTree = "<group>"; };
 		6256FA1006749A80844741B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		65B7A824866FBEF790E06EF9 /* Irovi.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Irovi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660D63B9A77098AA9FA73460 /* WidgetSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSync.swift; sourceTree = "<group>"; };
 		7727B745716C70F68443E799 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IroviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C20C087DDDC3BE57EB3D6B3 /* IroviWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = IroviWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD2B555A775A2D754935F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A3B9735CBC20E509668C1DA5 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		ABCC3E21C15341A767EF5FBF /* PlateWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateWidgetView.swift; sourceTree = "<group>"; };
+		AC5D283930A6286FFB48EF30 /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		AC81D08FAACDC6F2A5B45295 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		BEC678F6FC482871869CBB6E /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
 		BF16AB594981AF380EF87BAD /* CoreFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFlowTests.swift; sourceTree = "<group>"; };
+		CD7E18F98C6BE313942E44F1 /* IroviWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IroviWidget.swift; sourceTree = "<group>"; };
 		CE5D8AC5C7B68F8811929E5B /* BloodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodView.swift; sourceTree = "<group>"; };
 		D6F416D0DFB46E8AC68E92D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D817BEC7814119FB00ABBBE6 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
@@ -78,8 +127,10 @@
 		E496A9528205DDD58C06A3B7 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
 		EBB335D9546FCF0EEE9E63B4 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		F1B2F4F3D7D54BA7667B0286 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F4B33698322E711E891DD46E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F5F0EDAAC45E97F8356E53A4 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FCF55256FF46993401EB3673 /* IroviWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IroviWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -105,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD2B555A775A2D754935F5D /* Info.plist */,
+				61C709034D78ABC770142ED9 /* Irovi.entitlements */,
 				512A3405DC55714C5286F6D9 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Supporting;
@@ -119,6 +171,7 @@
 				5D94EE698D6B67C4EB7CBF21 /* Model */,
 				BA295D6A1123A714963EF8D4 /* Resources */,
 				92FBFEBF50C2302A9B6B1A6E /* Services */,
+				FD374A81045E2F280EE434A2 /* Shared */,
 				3E7EE24B8BE8F693481E5C47 /* Supporting */,
 			);
 			path = Irovi;
@@ -132,6 +185,18 @@
 				58751422B4410EC0F19B4C8E /* Records.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7B053144056709D3FA3067A4 /* IroviWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1944EA619A0F6050ADB17E9B /* Info.plist */,
+				FCF55256FF46993401EB3673 /* IroviWidget.entitlements */,
+				CD7E18F98C6BE313942E44F1 /* IroviWidget.swift */,
+				ABCC3E21C15341A767EF5FBF /* PlateWidgetView.swift */,
+				F1B2F4F3D7D54BA7667B0286 /* PrivacyInfo.xcprivacy */,
+			);
+			path = IroviWidget;
 			sourceTree = "<group>";
 		};
 		83EDECD2B618974C7EDBDC9C /* Settings */ = {
@@ -149,6 +214,7 @@
 				65B7A824866FBEF790E06EF9 /* Irovi.app */,
 				24217E760BD154B2E544DCB8 /* IroviTests.xctest */,
 				7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */,
+				8C20C087DDDC3BE57EB3D6B3 /* IroviWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +225,7 @@
 				48C823CB45F6FC25D3B1F6E8 /* DemoData.swift */,
 				5C370FF6621B64710444064C /* Export.swift */,
 				A3B9735CBC20E509668C1DA5 /* Reminders.swift */,
+				660D63B9A77098AA9FA73460 /* WidgetSync.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -167,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				E31017578B625D2ECD0EA29D /* CoreTests.swift */,
+				5372D3CA9C50AA99CEEEEE70 /* WidgetRenderTests.swift */,
 			);
 			path = IroviTests;
 			sourceTree = "<group>";
@@ -178,6 +246,7 @@
 				42674786ED0DCDC7B28721FA /* Irovi */,
 				B1109C47D86FBA362E81B885 /* IroviTests */,
 				E89E9FB92B2753ECA4FA82F6 /* IroviUITests */,
+				7B053144056709D3FA3067A4 /* IroviWidget */,
 				8652AE96E60877D5C0B19721 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,7 +275,9 @@
 		DD1F517D20333858161D4FF6 /* Today */ = {
 			isa = PBXGroup;
 			children = (
-				0F670E8C0491C48AB78D3B48 /* TodayView.swift */,
+				AC81D08FAACDC6F2A5B45295 /* HistoryView.swift */,
+				2834450BE9941F2F5A41666A /* HomeView.swift */,
+				5F06D82FCCDA32AE7F61AF19 /* LogFoodView.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -246,6 +317,15 @@
 			path = Learn;
 			sourceTree = "<group>";
 		};
+		FD374A81045E2F280EE434A2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AC5D283930A6286FFB48EF30 /* DayKey.swift */,
+				5D9A5DF3F3364ADB3459679A /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		FF71CF9788268BD5483F82F3 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,10 +343,12 @@
 			buildPhases = (
 				D68E2C2B9A6322B5E13BB349 /* Sources */,
 				C913ECF2E1A217787B0B08F9 /* Resources */,
+				6F81A43B8DFE4331C583D9D3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				75B64AEA0058C3322A310986 /* PBXTargetDependency */,
 			);
 			name = Irovi;
 			packageProductDependencies = (
@@ -292,6 +374,24 @@
 			productName = IroviUITests;
 			productReference = 7C8522255BB010A1A79CAE0E /* IroviUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7462D6EC64B355BD9329E588 /* IroviWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F877D267057040012B44E57 /* Build configuration list for PBXNativeTarget "IroviWidget" */;
+			buildPhases = (
+				5F180A8A6A5BFDCBD8AF3CBF /* Sources */,
+				359A5659D7B30B1579D0B3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IroviWidget;
+			packageProductDependencies = (
+			);
+			productName = IroviWidget;
+			productReference = 8C20C087DDDC3BE57EB3D6B3 /* IroviWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		E2595CD76C12E95A1CA64DD2 /* IroviTests */ = {
 			isa = PBXNativeTarget;
@@ -329,6 +429,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 25A6F854701231EC488C4932;
 					};
+					7462D6EC64B355BD9329E588 = {
+						DevelopmentTeam = 77H4K6A24V;
+						ProvisioningStyle = Automatic;
+					};
 					E2595CD76C12E95A1CA64DD2 = {
 						DevelopmentTeam = 77H4K6A24V;
 						ProvisioningStyle = Automatic;
@@ -351,6 +455,7 @@
 			projectRoot = "";
 			targets = (
 				25A6F854701231EC488C4932 /* Irovi */,
+				7462D6EC64B355BD9329E588 /* IroviWidget */,
 				E2595CD76C12E95A1CA64DD2 /* IroviTests */,
 				3D81AC7BBE917C2F837C65C8 /* IroviUITests */,
 			);
@@ -358,6 +463,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		359A5659D7B30B1579D0B3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497728D220BB1AA8AE1B0DFB /* Localizable.xcstrings in Resources */,
+				FF03AD02BE1455B3F621AC5F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C913ECF2E1A217787B0B08F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +490,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FD7FFC961038FF2CDCEBC8 /* CoreTests.swift in Sources */,
+				A430847B21E4E2FE352893BF /* PlateWidgetView.swift in Sources */,
+				DAD3DDB45C837B7AEC2F4856 /* WidgetRenderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +504,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F180A8A6A5BFDCBD8AF3CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B1AAD2FA8730FBBF72FE33 /* DayKey.swift in Sources */,
+				51BCE0B93E1CCB4CF72A2F3A /* Foods.swift in Sources */,
+				D5B2953332A038EFDF5A03B0 /* IroviWidget.swift in Sources */,
+				A939F0011443BC1C53BB4E3F /* Palette.swift in Sources */,
+				41DFCB02FB4FE9050FA63C47 /* PlateWidgetView.swift in Sources */,
+				CABB865513F7B85FAAA49FED /* Progress.swift in Sources */,
+				7399E0FA4CA50699A9B6C560 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D68E2C2B9A6322B5E13BB349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,12 +525,16 @@
 				9A29D9C6DF6C4683A83EC677 /* Article.swift in Sources */,
 				A6CF7FF69F213900DB062E64 /* BloodView.swift in Sources */,
 				BC3D9A0F18F36C08CE72DD7D /* Components.swift in Sources */,
+				14E2B8620F9B7B7879EE0027 /* DayKey.swift in Sources */,
 				1ABDEA6ED8780EDC4F1A3ED9 /* DemoData.swift in Sources */,
 				C1102DC89A0369C43ACEAD32 /* Export.swift in Sources */,
 				389B3B07D45811CABEC2CBE3 /* Foods.swift in Sources */,
+				39E1CEB99ADAEA937617DAE3 /* HistoryView.swift in Sources */,
+				93EC63C6735DDCA0236FE319 /* HomeView.swift in Sources */,
 				D8DC159C0A666D3571929F0B /* IroviApp.swift in Sources */,
 				B73D309C68C41E4FAFE62ECE /* LabResultEditor.swift in Sources */,
 				1E6D5EC1FFCC8495E2C7799D /* LearnView.swift in Sources */,
+				81F9E74B959D929B4F6EBC8C /* LogFoodView.swift in Sources */,
 				6178CDBED84115EBB5E8443C /* MedicinesView.swift in Sources */,
 				14D4D9E899AA612243F8F91A /* OnboardingView.swift in Sources */,
 				DE7011C0CD34EA79E65A8798 /* Palette.swift in Sources */,
@@ -409,7 +543,8 @@
 				A1B268560AEB068AA6BF2688 /* Reminders.swift in Sources */,
 				BA75A71F5172EDD31BD5331B /* RootView.swift in Sources */,
 				17C0B4B3FD01880632803306 /* SettingsView.swift in Sources */,
-				BF85F19D5E47C1DB09710BB0 /* TodayView.swift in Sources */,
+				A5ED9B46746DA6A4B0C296F4 /* WidgetSnapshot.swift in Sources */,
+				1BBA8FD57903BEE9324C0E43 /* WidgetSync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +560,11 @@
 			isa = PBXTargetDependency;
 			target = 25A6F854701231EC488C4932 /* Irovi */;
 			targetProxy = 4C93B6BFA4993348AD58275C /* PBXContainerItemProxy */;
+		};
+		75B64AEA0058C3322A310986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7462D6EC64B355BD9329E588 /* IroviWidget */;
+			targetProxy = 864896236DA8395AC4E27F3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -497,6 +637,7 @@
 			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Irovi/Supporting/Irovi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -509,6 +650,30 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID)";
 				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2141657F14C115F5BDE18658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IroviWidget/IroviWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IroviWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -548,6 +713,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).tests";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) IROVI_TESTS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irovi.app/Irovi";
 			};
@@ -558,6 +724,7 @@
 			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Irovi/Supporting/Irovi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -651,6 +818,30 @@
 			};
 			name = Debug;
 		};
+		BAEFAE76E315EF11EDE3FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IroviWidget/IroviWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IroviWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
 		F531F4B2CEEDCD7AEA32880A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9ECFFC7E781B367F97CB696 /* Signing.xcconfig */;
@@ -665,6 +856,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IROVI_BUNDLE_ID).tests";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) IROVI_TESTS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irovi.app/Irovi";
 			};
@@ -687,6 +879,15 @@
 			buildConfigurations = (
 				038E4F073CF3A589A1A08DE8 /* Debug */,
 				8F6A3B586C17F74294414907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F877D267057040012B44E57 /* Build configuration list for PBXNativeTarget "IroviWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEFAE76E315EF11EDE3FD0D /* Debug */,
+				2141657F14C115F5BDE18658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

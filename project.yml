@@ -15,6 +15,12 @@ targets:
       Release: Config/Signing.xcconfig
     sources:
       - path: Irovi
+    dependencies:
+      - target: IroviWidget
+    entitlements:
+      path: Irovi/Supporting/Irovi.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.irovi.app]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(IROVI_BUNDLE_ID)
@@ -27,6 +33,36 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         SWIFT_EMIT_LOC_STRINGS: YES
 
+  IroviWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    sources:
+      - path: IroviWidget
+      - path: Irovi/Shared
+      - path: Irovi/Model/Foods.swift
+      - path: Irovi/Model/Progress.swift
+      - path: Irovi/DesignSystem/Palette.swift
+      - path: Irovi/Resources/Localizable.xcstrings
+    entitlements:
+      path: IroviWidget/IroviWidget.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.irovi.app]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(IROVI_BUNDLE_ID).widget
+        INFOPLIST_FILE: IroviWidget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SKIP_INSTALL: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+
   IroviTests:
     type: bundle.unit-test
     platform: iOS
@@ -36,12 +72,14 @@ targets:
       Release: Config/Signing.xcconfig
     sources:
       - path: IroviTests
+      - path: IroviWidget/PlateWidgetView.swift
     dependencies:
       - target: Irovi
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
         PRODUCT_BUNDLE_IDENTIFIER: $(IROVI_BUNDLE_ID).tests
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) IROVI_TESTS
 
   IroviUITests:
     type: bundle.ui-testing

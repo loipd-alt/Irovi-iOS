@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#D2643B"/>
-      <stop offset="1" stop-color="#9C3517"/>
+      <stop offset="0" stop-color="#EE5146"/>
+      <stop offset="1" stop-color="#A8124A"/>
     </linearGradient>
     <radialGradient id="plate" cx="0.45" cy="0.4" r="0.7">
       <stop offset="0" stop-color="#FFFBF6"/>
-      <stop offset="1" stop-color="#F1E6DA"/>
+      <stop offset="1" stop-color="#F6ECEC"/>
     </radialGradient>
     <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#D24A2A"/>
-      <stop offset="1" stop-color="#8E2A12"/>
+      <stop offset="0" stop-color="#E8453C"/>
+      <stop offset="1" stop-color="#A3123F"/>
     </linearGradient>
     <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
       <stop offset="0" stop-color="#2E7A3F"/>
       <stop offset="1" stop-color="#5DAA68"/>
     </linearGradient>
     <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#5A1C08" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#5E0726" flood-opacity="0.35"/>
     </filter>
   </defs>
   <rect width="1024" height="1024" fill="url(#bg)"/>
   <g filter="url(#sh)"><circle cx="512" cy="512" r="318" fill="url(#plate)"/></g>
-  <circle cx="512" cy="512" r="250" fill="none" stroke="#E7D9CA" stroke-width="10"/>
+  <circle cx="512" cy="512" r="250" fill="none" stroke="#F0DEDF" stroke-width="10"/>
   <path d="M462 318 C462 318 588 476 588 574 A126 126 0 1 1 336 574 C336 476 462 318 462 318 Z" fill="url(#drop)"/>
   <ellipse cx="420" cy="540" rx="26" ry="44" fill="#FFFFFF" opacity="0.28" transform="rotate(-18 420 540)"/>
   <path d="M548 676 C548 548 636 438 748 414 C752 528 684 650 548 676 Z" fill="url(#leaf)"/>

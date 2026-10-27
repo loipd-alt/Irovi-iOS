@@ -16,11 +16,22 @@ Người thiếu sắt / thiếu máu hoặc muốn phòng tránh: phụ nữ (k
 
 ## 2. Tính năng (4 phần)
 
-**2.1 Hôm nay (checklist ăn uống)**
-- 6 nhóm thực phẩm giàu sắt, bấm để đánh dấu đã ăn hôm nay: thịt đỏ & gan · hải sản & cá · gia cầm & trứng · đậu, đậu phụ · rau lá xanh đậm · ngũ cốc tăng cường sắt, hạt.
+**2.0 Home (tổng quan)**
+- Lời chào theo giờ; thẻ gradient "Bữa ăn đủ sắt hôm nay" (vòng tiến độ, chuỗi ngày, nút Ghi món ăn); biểu đồ 7 ngày; thẻ Hb và ferritin mới nhất có đường xu hướng; thuốc hôm nay; ngày xét nghiệm tới; mẹo trong ngày.
+- Nút **+** nổi: chọn Ghi món ăn / Kết quả xét nghiệm / Nhắc uống thuốc.
+
+**2.1 Ghi món ăn (mở từ + hoặc nút Ghi món ăn)**
+- Chọn Hôm nay hoặc Hôm qua.
+- 6 nhóm thực phẩm giàu sắt, mỗi nhóm một màu pastel, bấm để đánh dấu đã ăn: thịt đỏ & gan · hải sản & cá · gia cầm & trứng · đậu, đậu phụ · rau lá xanh đậm · ngũ cốc tăng cường sắt, hạt.
 - Mục tiêu: số nhóm mỗi ngày (mặc định 3, sửa được 1–6). Vòng tiến độ + chuỗi ngày đạt mục tiêu.
 - 2 thói quen hỗ trợ hấp thu: ăn kèm vitamin C; để trà/cà phê xa bữa ăn.
 - Thuốc bác sĩ kê (nếu người dùng tự thêm): đánh dấu đã uống hôm nay.
+
+**2.1b Lịch sử (Home › Tuần này › Lịch sử)**
+- Lịch tháng: xanh = đạt mục tiêu, hồng nhạt = có ghi; tóm tắt số ngày đạt và nhóm ăn nhiều nhất. Bấm một ngày đã qua để xem/sửa.
+
+**2.1c Widget**
+- Màn hình chính (nhỏ, vừa) và màn hình khoá (tròn, chữ nhật): tiến độ hôm nay, chuỗi ngày; cỡ vừa hiện 6 nhóm thực phẩm. Bấm vào mở màn Ghi món ăn. App ghi một bản tóm tắt vào App Group `group.com.irovi.app`; widget chỉ đọc bản đó.
 
 **2.2 Chỉ số máu**
 - Nhập kết quả xét nghiệm: ngày, Hb (g/dL hoặc g/L), ferritin (ng/mL), ghi chú.
@@ -53,10 +64,10 @@ Người thiếu sắt / thiếu máu hoặc muốn phòng tránh: phụ nữ (k
 
 ## 4. Thiết kế
 
-- Màu: **đỏ đất nung** (sắt, máu) + **xanh lá** (rau) trên nền **kem ấm**. Khác teal (Blood Tracker) và tím (Cuffnote).
+- Màu: **đỏ hồng ngọc → mâm xôi** (gradient, cho sắt và hành động) + **xanh lá** (đạt mục tiêu) + **pastel riêng cho từng nhóm thực phẩm**, trên nền **trắng ấm**. Khác teal (Blood Tracker) và tím (Cuffnote).
 - Chữ số và tiêu đề dùng SF Rounded. Mọi màu, bo góc, khoảng cách nằm trong một file `Irovi/DesignSystem/Palette.swift`.
-- 3 tab: **Today · Blood · Learn**. Cài đặt: nút bánh răng ở Today.
-- Icon: đĩa ăn màu kem trên nền đỏ đất nung, trong đĩa có giọt máu và chiếc lá.
+- 3 tab: **Home · Blood · Learn**, nút **+** nổi ở Home. Cài đặt: nút bánh răng ở Home.
+- Icon: đĩa ăn trắng trên nền gradient đỏ hồng ngọc, trong đĩa có giọt máu và chiếc lá.
 
 ## 5. Quy định Apple (đã rà)
 
@@ -68,4 +79,4 @@ Người thiếu sắt / thiếu máu hoặc muốn phòng tránh: phụ nữ (k
 
 ## 6. Ngoài phạm vi v1.0
 
-Ghi bữa ăn chi tiết theo mg, widget, gói trả phí, đồng bộ iCloud, Apple Health. Làm ở bản sau nếu cần.
+Ghi bữa ăn chi tiết theo mg, gói trả phí, đồng bộ iCloud, Apple Health. Làm ở bản sau nếu cần.

@@ -18,21 +18,22 @@ EXTRA_SIZES = {'6.5': (1284, 2778)}  # "iPhone 6.5\" Display" (accepts 1242×268
 MARGIN = 96
 FONT_FILE = '/System/Library/Fonts/SFNS.ttf'  # SF Pro, has Vietnamese glyphs
 
-BRAND = (181, 64, 30)        # Palette.iron #B5401E
-BRAND_SOFT = (248, 227, 217)  # Palette.ironSoft #F8E3D9
-BACKGROUND = (251, 246, 240)  # Palette.background #FBF6F0
-TEXT = (43, 32, 27)           # Palette.textPrimary #2B201B
-SUBTEXT = (110, 95, 87)       # Palette.textSecondary #6E5F57
+BRAND = (217, 58, 53)        # Palette.iron #D93A35
+BRAND_SOFT = (253, 228, 225)  # Palette.ironSoft #FDE4E1
+BACKGROUND = (255, 247, 244)  # Palette.background #FFF7F4
+TEXT = (42, 27, 31)           # Palette.textPrimary #2A1B1F
+SUBTEXT = (111, 90, 96)       # Palette.textSecondary #6F5A60
 
 # Wording follows docs/PRODUCT_SPEC.md §5: no diagnosis, no treatment claims.
-SCREENS = ['1-today', '2-blood', '3-absorb', '4-learn', '5-welcome']
+SCREENS = ['1-home', '2-log', '3-blood', '4-history', '5-learn', '6-welcome']
 COPY = {
     'en': {
-        '1-today': ('An iron-rich plate,\nevery day', 'Tick the food groups you ate today'),
-        '2-blood': ('Your blood results\nat a glance', 'Hemoglobin and ferritin over time'),
-        '3-absorb': ('Help your body\nabsorb iron', 'Simple habits and gentle reminders'),
-        '4-learn': ('Learn the\nbasics', 'Short reads with trusted sources'),
-        '5-welcome': ('No account.\nJust your plate.', 'Everything stays on your iPhone'),
+        '1-home': ('Your iron day\nat a glance', 'Food, streaks and blood results in one place'),
+        '2-log': ('Log iron-rich food\nin a few taps', 'Six food groups and two simple habits'),
+        '3-blood': ('Your blood results\nover time', 'Hemoglobin and ferritin on one chart'),
+        '4-history': ('Look back,\nmonth by month', 'See which days reached your goal'),
+        '5-learn': ('Learn the\nbasics', 'Short reads with trusted sources'),
+        '6-welcome': ('No account.\nJust your plate.', 'Everything stays on your iPhone'),
     },
 }
 
@@ -83,9 +84,12 @@ def decorate(draw, index):
     elif index == 3:
         draw.ellipse(circle(1150, 2450, 420), outline=BRAND, width=60)
         draw.ellipse(circle(1230, 900, 160), fill=BRAND_SOFT)
-    else:
+    elif index == 4:
         draw.ellipse(circle(40, 1500, 360), fill=BRAND)
         draw.ellipse(circle(900, 2750, 380), outline=BRAND_SOFT, width=50)
+    else:
+        draw.ellipse(circle(1250, 1700, 330), fill=BRAND_SOFT)
+        draw.ellipse(circle(120, 2620, 260), outline=BRAND, width=48)
 
 
 def frame(screen, height):

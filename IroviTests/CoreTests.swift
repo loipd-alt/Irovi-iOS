@@ -90,3 +90,46 @@ final class ReminderTests: XCTestCase {
         XCTAssertFalse(body.contains(where: \.isNumber))
     }
 }
+
+final class WidgetSnapshotTests: XCTestCase {
+    private let calendar = Calendar(identifier: .gregorian)
+    private var now: Date { calendar.date(from: DateComponents(year: 2026, month: 10, day: 27, hour: 9))! }
+    private func key(_ offset: Int) -> String {
+        DayKey.make(calendar.date(byAdding: .day, value: offset, to: now)!, calendar: calendar)
+    }
+
+    func testSameDayShowsEverything() {
+        let snapshot = WidgetSnapshot(dayKey: key(0), eaten: ["redMeat", "greens"], goal: 3, streak: 4)
+        let shown = snapshot.resolved(on: now, calendar: calendar)
+        XCTAssertEqual(shown.eaten, [.redMeat, .greens])
+        XCTAssertEqual(shown.streak, 4)
+    }
+
+    func testNewDayResetsCountButKeepsAStreakFromAMetYesterday() {
+        let snapshot = WidgetSnapshot(dayKey: key(-1), eaten: ["redMeat", "greens", "legumes"], goal: 3, streak: 6)
+        let shown = snapshot.resolved(on: now, calendar: calendar)
+        XCTAssertTrue(shown.eaten.isEmpty)
+        XCTAssertEqual(shown.streak, 6)
+    }
+
+    func testOldSnapshotDropsTheStreak() {
+        let snapshot = WidgetSnapshot(dayKey: key(-3), eaten: ["redMeat", "greens", "legumes"], goal: 3, streak: 6)
+        XCTAssertEqual(snapshot.resolved(on: now, calendar: calendar).streak, 0)
+    }
+
+    func testSnapshotRoundTripsThroughDefaults() {
+        let defaults = UserDefaults(suiteName: "irovi.tests.\(UUID().uuidString)")!
+        let snapshot = WidgetSnapshot(dayKey: "2026-10-27", eaten: ["seafood"], goal: 2, streak: 1)
+        snapshot.save(defaults: defaults)
+        XCTAssertEqual(WidgetSnapshot.load(defaults: defaults), snapshot)
+    }
+}
+
+final class RouterTests: XCTestCase {
+    func testWidgetLinkOpensTheFoodLog() {
+        let router = AppRouter()
+        XCTAssertTrue(router.handle(AppRouter.foodLogURL))
+        XCTAssertTrue(router.openFoodLog)
+        XCTAssertFalse(AppRouter().handle(URL(string: "https://example.com")!))
+    }
+}

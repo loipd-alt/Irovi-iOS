@@ -1,6 +1,6 @@
 # Irovi
 
-iOS app (SwiftUI + SwiftData, iOS 17+, iPhone) that helps people eat enough iron-rich food each day and keep their hemoglobin / ferritin results in one place. On-device only: no account, no network, no HealthKit, no third-party SDKs.
+iOS app (SwiftUI + SwiftData, iOS 17+, iPhone) that helps people eat enough iron-rich food each day and keep their hemoglobin / ferritin results in one place. On-device only: no account, no network, no HealthKit, no third-party SDKs. Includes a WidgetKit widget and a month history.
 
 ## Build
 
@@ -30,6 +30,8 @@ xcodebuild -project Irovi.xcodeproj -scheme Irovi \
 | Learn articles (EN + VI) | `Irovi/Features/Learn/Article.swift` |
 | Vietnamese UI strings | `scripts/vi_strings.py` → `Irovi/Resources/Localizable.xcstrings` |
 | App icon source | `scripts/app-icon.svg` |
+| Widget (Home + Lock Screen) | `IroviWidget/` — reads `WidgetSnapshot` from App Group `group.com.irovi.app` |
+| App ↔ widget shared code | `Irovi/Shared/` (+ `Foods.swift`, `Progress.swift`, `Palette.swift`) |
 
 ## Scripts
 

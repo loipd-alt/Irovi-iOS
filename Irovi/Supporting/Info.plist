@@ -25,6 +25,17 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.irovi.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>irovi</string>
+			</array>
+		</dict>
+	</array>
 	<key>IroviAppStoreID</key>
 	<string>$(IROVI_APP_STORE_ID)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>

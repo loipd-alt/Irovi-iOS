@@ -91,6 +91,7 @@ struct SettingsView: View {
                 ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() } }
             }
             .onChange(of: foodMinutes) { _, _ in resync() }
+            .onChange(of: goal) { _, _ in WidgetSync.refresh(context) }
             .alert("Notifications are off", isPresented: $permissionDenied) {
                 Button("Open Settings") {
                     if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
@@ -135,6 +136,7 @@ struct SettingsView: View {
             defaults.removeObject(forKey: key)
         }
         resync()
+        WidgetSync.refresh(context)
     }
 }
 
